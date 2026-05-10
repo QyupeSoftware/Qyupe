@@ -624,8 +624,8 @@
                     <!-- Stats -->
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-700 animate-on-scroll">
                         <div class="text-center">
-                            <div class="text-4xl md:text-5xl gradient-text font-bold mb-2">50+</div>
-                            <div class="text-sm text-gray-600 dark:text-gray-400">Software Engineers</div>
+                            <div class="text-4xl md:text-5xl gradient-text font-bold mb-2">New</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-400">Company 2025</div>
                         </div>
                         <div class="text-center">
                             <div class="text-4xl md:text-5xl gradient-text font-bold mb-2">4</div>
@@ -887,6 +887,7 @@
                         <li><a href="#services" class="text-gray-400 dark:text-gray-500 hover:text-blue-400 transition-colors">Services</a></li>
                         <li><a href="#about" class="text-gray-400 dark:text-gray-500 hover:text-blue-400 transition-colors">About</a></li>
                         <li><a href="#contact" class="text-gray-400 dark:text-gray-500 hover:text-blue-400 transition-colors">Contact</a></li>
+                        <li><a href="#" id="policy-link" class="text-gray-400 dark:text-gray-500 hover:text-blue-400 transition-colors">Workplace Policies</a></li>
                     </ul>
                 </div>
 
@@ -903,7 +904,7 @@
 
             <!-- Bottom Bar -->
             <div class="border-t border-gray-800 dark:border-gray-800 pt-8 text-center text-gray-400 dark:text-gray-500">
-                <div class="flex items-center gap-4">
+                <div class="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:gap-4">
                     <p>© <span id="current-year">2026</span> Qyupe Software Private Limited. All rights reserved.</p>
                     <a href="https://www.linkedin.com/company/qyupe-software-private-limited/" target="_blank" rel="noopener" aria-label="Qyupe on LinkedIn" class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="text-white"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.968v5.699h-3v-10h2.881v1.367h.041c.401-.759 1.379-1.561 2.839-1.561 3.037 0 3.6 2.001 3.6 4.604v5.59z"></path></svg>
@@ -912,6 +913,57 @@
             </div>
         </div>
     </footer>
+
+    <div id="policy-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/60" role="dialog" aria-modal="true" aria-labelledby="policy-modal-title">
+        <div class="w-full max-w-3xl overflow-hidden rounded-3xl border border-gray-200 bg-white text-left shadow-2xl dark:border-gray-700 dark:bg-gray-900">
+            <div class="flex items-start justify-between px-6 py-5 bg-gray-50 dark:bg-gray-800">
+                <div>
+                    <h2 id="policy-modal-title" class="text-xl font-semibold text-gray-900 dark:text-white">Workplace Policies</h2>
+                    <!--<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Click the close button once you have finished reading.</p>-->
+                </div>
+                <button id="policy-close" type="button" class="text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white focus:outline-none" aria-label="Close workplace policies popup">✕</button>
+            </div>
+            <div class="space-y-4 px-6 py-6 text-gray-700 dark:text-gray-300 max-h-[70vh] overflow-y-auto">
+                <p>To manage the organization with prime focus on productivity and least management overhead, EAZYSTAR Systems Inc and its group companies follow:</p>
+                <ul class="list-disc list-inside space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                    <li><strong>Learning first:</strong> everyone learns first and then works on it instead of learning while doing it, reducing errors that can hurt productivity, timelines, and customer satisfaction. This also prevents low motivation caused by repeated failures.</li>
+                    <li><strong>No negotiation during new hire selections:</strong> ensures fair compensation for everyone and equal opportunities within the organization.</li>
+                    <li><strong>No retention after resignation:</strong> encourages employees to raise concerns about compensation or work as soon as they are felt.</li>
+                    <li><strong>Self-appraisal:</strong> everyone is compensated according to performance delivered. Team members are encouraged to continuously self-review progress and email self-appraisals to <a href="mailto:self-appraisals@eazystar.us" class="text-blue-600 dark:text-blue-400 hover:underline">self-appraisals@eazystar.us</a> with details about improvements achieved since the last appraisal.</li>
+                </ul>
+                <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-2xl border border-gray-200 dark:border-gray-700">
+                    <p class="font-semibold">Self appraisal email format:</p>
+                    <pre class="whitespace-pre-wrap text-sm text-gray-700 dark:text-gray-300">Date of Last appraisal-
+Current compensation:
+New learnings since last appraisal:
+Other key achievements:</pre>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">If the last appraisal is pending for implementation for financial reasons, the next self appraisal can still be submitted. Once the company has the budget, the latest approved self-appraisal will go into effect.</p>
+                </div>
+                <ul class="list-disc list-inside space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                    <li><strong>No smoking:</strong> ensures everyone feels safe in the workplace.</li>
+                    <li><strong>No notice period:</strong> so employees love working with the company and can move on when their mind changes.</li>
+                    <li><strong>Flexible leaves:</strong> employees can manage work-life balance without stress. Unavailability must be communicated through OOO/Break so the team can mitigate risks. Medical and exam leaves are paid unless within the first 30 days of joining. Other leaves are paid if within a reasonable limit. Abuse of this flexibility may lead to separation after review by a randomly chosen 5-member committee.</li>
+                    <li><strong>Self-payroll.</strong></li>
+                    <li><strong>Availability between 2-10 pm.</strong></li>
+                    <li><strong>PPP:</strong> In PPP, work is planned, progress is tracked, and problems are highlighted to facilitate timely resolution. PPPs also help reference data during self-appraisal submission and review.</li>
+                </ul>
+                <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-2xl border border-gray-200 dark:border-gray-700">
+                    <p class="font-semibold">PPP format:</p>
+                    <pre class="whitespace-pre-wrap text-sm text-gray-700 dark:text-gray-300">Date
+Plan
+Progress
+Problems</pre>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Steps to draft the PPP:</p>
+                    <ul class="list-disc list-inside space-y-1 text-sm text-gray-700 dark:text-gray-300">
+                        <li>Record today's progress with each item in a new line.</li>
+                        <li>Highlight any problems faced in the problems column.</li>
+                        <li>Include links to GitHub PRs, deployment URLs, LinkedIn posts, YouTube videos, or any relevant progress/problem items.</li>
+                        <li>Plan the tasks for tomorrow and create GitHub issues with links in the Plan column.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Theme Toggle Functionality
@@ -1098,6 +1150,38 @@
                 }
             });
         });
+
+        const policyLink = document.getElementById('policy-link');
+        const policyModal = document.getElementById('policy-modal');
+        const policyClose = document.getElementById('policy-close');
+
+        if (policyLink && policyModal && policyClose) {
+            const openPolicyModal = (event) => {
+                event.preventDefault();
+                policyModal.classList.remove('hidden');
+                policyModal.classList.add('flex');
+                document.body.style.overflow = 'hidden';
+            };
+
+            const closePolicyModal = () => {
+                policyModal.classList.add('hidden');
+                policyModal.classList.remove('flex');
+                document.body.style.overflow = '';
+            };
+
+            policyLink.addEventListener('click', openPolicyModal);
+            policyClose.addEventListener('click', closePolicyModal);
+            policyModal.addEventListener('click', (event) => {
+                if (event.target === policyModal) {
+                    closePolicyModal();
+                }
+            });
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && !policyModal.classList.contains('hidden')) {
+                    closePolicyModal();
+                }
+            });
+        }
     </script>
 <script>
 // Ensure client logos use provided SVGs and are visible on light/dark backgrounds
