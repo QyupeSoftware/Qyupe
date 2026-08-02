@@ -67,7 +67,7 @@ const policies = [
   {
     num: '07',
     title: 'Flexible leaves',
-    description: 'So that everyone at our company can manage their work-life balance without stress. Any unavailability needs to be communicated in OOO/Break so our team can mitigate the risk arising from it. All medical and exam leaves are paid unless they fall within the first 30 days of joining. Leaves taken for other reasons are paid if within a reasonable limit. Any abuse of this flexibility will be taken seriously and may be the reason for separation, subject to review by a 5-member committee chosen at random for each incidence.',
+    description: 'So that everyone at our company can manage their work-life balance without stress. Any unavailability needs to be communicated in OOO/Break so that our team can mitigate the risk arising from it. All medical and exam leaves are paid unless they fall within the first 30 days of joining. Leaves taken for other reasons are paid if they are within a reasonable limit. Any abuse of this flexibility will be taken seriously and may be the reason for separation, subject to review by a 5-member committee chosen at random for every incident.',
   },
   {
     num: '08',
@@ -81,11 +81,11 @@ const policies = [
   {
     num: '10',
     title: 'PPP — Plan, Progress, Problems',
-    pre: "So that work can be planned, progress can be tracked, and any problems can be highlighted to facilitate resolution in time. PPPs also help reference the data during self-appraisal submission and review.",
+    pre: "So that work can be planned, progress can be tracked, and any problems can be highlighted to facilitate resolutions in time. PPPs also help reference data during the self-appraisal submission and review.",
     code: 'Date\nPlan\nProgress\nProblems',
     stepsTitle: 'Steps to draft the PPP:',
     steps: [
-      "Record today's progress with each item on a new line. Highlight any problems faced in the Problems column, including links to GitHub PRs, deployment URLs, LinkedIn posts, YouTube videos, or any other relevant item in Progress/Problems.",
+      "Record today's progress with each item on a new line. Highlight any problems faced in the Problems column, including links to GitHub PRs, deployment URLs, LinkedIn posts, YouTube videos, or any other relevant items in Progress/Problems.",
       'Plan the tasks for tomorrow. Create GitHub issues and include the links in the Plan column.',
     ],
   },
@@ -109,7 +109,7 @@ const policies = [
     <section class="content">
       <div class="eyebrow">Our USP</div>
       <h1>Workplace Policies</h1>
-      <p class="intro">To manage the organization with prime focus on productivity and least management overhead, EazyStar Systems Inc and its group companies follow these policies. Qyupe follows policy guides set by its parent, EazyStar Systems Inc.</p>
+      <p class="intro">To manage the organization with a prime focus on productivity and the least management overhead, EazyStar Systems Inc and its group companies follow these policies. Qyupe follows the policy guides set by its parent, EazyStar Systems Inc.</p>
 
       <div class="list">
         <div v-for="p in policies" :key="p.num" class="item">
