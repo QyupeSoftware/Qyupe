@@ -1,21 +1,33 @@
 <script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 import logoQyupe from '../assets/logo-qyupe.png'
+import { DEFAULT_LOCALE, homePath, policiesPath } from '../i18n/locales'
+import LanguageSwitcher from './LanguageSwitcher.vue'
+
+const { t } = useI18n()
+const route = useRoute()
+const locale = computed(() => route.meta.locale || DEFAULT_LOCALE)
+const home = computed(() => homePath(locale.value))
+const policies = computed(() => policiesPath(locale.value))
 </script>
 
 <template>
   <header class="site-header">
     <div class="inner">
-      <router-link to="/">
+      <router-link :to="home">
         <img :src="logoQyupe" alt="Qyupe Software" class="logo">
       </router-link>
 
       <nav class="nav">
-        <a href="/#services">Services</a>
-        <a href="/#about">About</a>
-        <a href="/#clients">Clients</a>
-        <a href="/#contact">Contact</a>
-        <router-link to="/policies" class="policies-link">Workplace Policies</router-link>
-        <a href="mailto:Hello@qyupe.com" class="cta">Get in touch</a>
+        <a :href="`${home}#services`">{{ t('nav.services') }}</a>
+        <a :href="`${home}#about`">{{ t('nav.about') }}</a>
+        <a :href="`${home}#clients`">{{ t('nav.clients') }}</a>
+        <a :href="`${home}#contact`">{{ t('nav.contact') }}</a>
+        <router-link :to="policies" class="policies-link">{{ t('nav.workplacePolicies') }}</router-link>
+        <LanguageSwitcher />
+        <a href="mailto:Hello@qyupe.com" class="cta">{{ t('nav.getInTouch') }}</a>
       </nav>
     </div>
   </header>
@@ -41,7 +53,7 @@ import logoQyupe from '../assets/logo-qyupe.png'
 .logo { height: 82px; width: 169px; }
 .nav {
   display: flex;
-  gap: 28px;
+  gap: 24px;
   align-items: center;
 }
 .nav a,
@@ -49,6 +61,7 @@ import logoQyupe from '../assets/logo-qyupe.png'
   font-size: 15px;
   font-weight: 500;
   color: oklch(0.35 0.01 90);
+  white-space: nowrap;
 }
 .policies-link { font-weight: 600; color: var(--color-accent); cursor: pointer; }
 .nav a.cta {
@@ -61,7 +74,7 @@ import logoQyupe from '../assets/logo-qyupe.png'
 }
 .nav a.cta:hover { color: white; opacity: 0.9; }
 
-@media (max-width: 860px) {
+@media (max-width: 980px) {
   .nav { display: none; }
 }
 </style>

@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "home": {
+      "title": "Qyupe Software Private Limited | Desarrollo de software, contabilidad y servicios paralegales de inmigración en EE. UU.",
+      "description": "Qyupe Software Private Limited ofrece desarrollo a medida, contabilidad confiable y apoyo paralegal de inmigración en EE. UU. para startups y empresas en crecimiento, todo con un equipo responsable."
+    },
+    "policies": {
+      "title": "Políticas laborales | Qyupe Software Private Limited",
+      "description": "EazyStar Systems Inc. y sus empresas del grupo operan con un conjunto sencillo de políticas laborales centradas en la productividad y la mínima carga administrativa, las mismas que sigue Qyupe Software Private Limited."
+    }
+  },
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "clients": "Clientes",
+    "contact": "Contacto",
+    "workplacePolicies": "Políticas laborales",
+    "getInTouch": "Contáctanos"
+  },
+  "hero": {
+    "badge": "Software · Contabilidad · Cumplimiento · Paralegal de inmigración · RP",
+    "title": "Todos los servicios que necesitas para crecer más rápido, bajo un mismo techo",
+    "description": "Qyupe Software Private Limited ofrece desarrollo a medida, contabilidad confiable y apoyo paralegal de inmigración en EE. UU. para startups y empresas en crecimiento, todo con un equipo responsable.",
+    "ctaPrimary": "Contáctanos",
+    "ctaSecondary": "Explorar servicios"
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Tres servicios, un equipo confiable",
+    "description": "Desde lanzar producto hasta mantener las cuentas en orden y gestionar los trámites de inmigración en EE. UU., nos encargamos del trabajo operativo para que puedas enfocarte en crecer.",
+    "items": [
+      { "icon": "◆", "title": "Desarrollo de software", "text": "Aplicaciones web, móviles y en la nube a medida: arquitectura, desarrollo y soporte posterior al lanzamiento, con entrega asistida por IA para mayor velocidad y calidad." },
+      { "icon": "▤", "title": "Contabilidad", "text": "Libros contables precisos y actualizados para empresas en EE. UU.: conciliaciones, reportes y soporte de nómina para que tus finanzas estén siempre listas para auditoría." },
+      { "icon": "✎", "title": "Servicios paralegales de inmigración en EE. UU.", "text": "Preparación de peticiones y seguimiento de casos para trámites de inmigración en EE. UU., trabajando junto a abogados para mantener cada caso organizado y a tiempo." },
+      { "icon": "✓", "title": "Cumplimiento normativo de empresas en EE. UU.", "text": "Soporte de agente registrado, presentaciones anuales y mantenimiento regulatorio para que tu entidad en EE. UU. siga en regla a medida que crece." },
+      { "icon": "▲", "title": "RP", "text": "Difusión con medios y construcción de narrativa para ayudarte a destacar mientras creces." }
+    ]
+  },
+  "about": {
+    "eyebrow": "Quiénes somos",
+    "title": "Una subsidiaria construida sobre un sistema operativo simple",
+    "description": "Qyupe Software Private Limited es una subsidiaria de EazyStar Systems Inc., una empresa con sede en EE. UU. Operamos con un conjunto de políticas laborales sencillas y transparentes, diseñadas para maximizar la productividad y minimizar la carga administrativa: políticas que nos enorgullece hacer públicas.",
+    "readPolicies": "Lee nuestras Políticas laborales →",
+    "stats": [
+      { "value": "100%", "label": "Compromiso" },
+      { "value": "Ágil", "label": "+ entrega asistida por IA" },
+      { "value": "Matriz en EE. UU.", "label": "EazyStar Systems Inc." }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Nuestros clientes",
+    "title": "La confianza del grupo EazyStar",
+    "description": "Creamos y damos soporte a las plataformas detrás de estos productos.",
+    "items": [
+      { "name": "eazyPetition", "desc": "Plataforma de peticiones de inmigración en EE. UU.", "href": "https://eazypetition.com", "label": "eazypetition.com ↗" },
+      { "name": "trackmypetition", "desc": "Plataforma de seguimiento de peticiones ante USCIS", "href": "https://trackmypetition.com", "label": "trackmypetition.com ↗" },
+      { "name": "saasmart", "desc": "Simplificando la acumulación y protección de activos", "href": "https://saasmart.us", "label": "saasmart.us ↗" },
+      { "name": "eazystar", "desc": "EazyStar Systems Inc.", "href": "https://eazystar.us", "label": "eazystar.us ↗" }
+    ]
+  },
+  "contact": {
+    "title": "¿Listo para trabajar juntos?",
+    "description": "Cuéntanos sobre tu proyecto, tu contabilidad o tu caso: te responderemos dentro de un día hábil.",
+    "email": "Hello\\@qyupe.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Qyupe Software Private Limited · Una subsidiaria de EazyStar Systems Inc."
+  },
+  "policiesPage": {
+    "eyebrow": "Nuestra propuesta de valor",
+    "title": "Políticas laborales",
+    "intro": "Para gestionar la organización con foco principal en la productividad y la mínima carga administrativa, EazyStar Systems Inc y sus empresas del grupo siguen estas políticas. Qyupe sigue las pautas de políticas establecidas por su matriz, EazyStar Systems Inc.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Primero aprender",
+        "description": "Todos aprenden primero y luego trabajan en ello, en lugar de aprender mientras hacen el trabajo, reduciendo errores que pueden afectar la productividad, los plazos y la satisfacción del cliente. Esto también evita la baja motivación causada por fallos repetidos."
+      },
+      {
+        "num": "02",
+        "title": "Sin negociación en la selección de nuevas contrataciones",
+        "description": "Mantiene una compensación justa para todos dentro de la organización e igualdad de oportunidades para todos."
+      },
+      {
+        "num": "03",
+        "title": "Sin retención tras la renuncia",
+        "description": "Para que todos se sientan motivados a expresar sus inquietudes, ya sea sobre la compensación o el trabajo, tan pronto como surjan."
+      },
+      {
+        "num": "04",
+        "title": "Autoevaluación",
+        "preHtml": "Todos son compensados según el desempeño entregado. Se anima a todos a revisar continuamente su propio progreso y enviar su autoevaluación a <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a> con los detalles de las mejoras logradas desde la última evaluación.",
+        "code": "Fecha de la última evaluación-\nCompensación actual:\nNuevos aprendizajes desde la última evaluación:\nOtros logros clave:",
+        "post": "En caso de que la última evaluación esté pendiente de implementación por motivos financieros, la siguiente autoevaluación puede enviarse igualmente. En cuanto la empresa tenga presupuesto, entrará en vigor la última autoevaluación aprobada."
+      },
+      {
+        "num": "05",
+        "title": "Prohibido fumar",
+        "description": "Para que todos se sientan seguros en el lugar de trabajo."
+      },
+      {
+        "num": "06",
+        "title": "Sin periodo de preaviso",
+        "description": "Para que a todos les encante trabajar con nosotros y puedan continuar su camino cuando decidan cambiar de opinión."
+      },
+      {
+        "num": "07",
+        "title": "Permisos flexibles",
+        "description": "Para que todos en nuestra empresa puedan gestionar su equilibrio entre vida laboral y personal sin estrés. Cualquier ausencia debe comunicarse en OOO/Break para que nuestro equipo pueda mitigar el riesgo que genere. Todas las licencias médicas y de exámenes son pagadas, salvo que ocurran dentro de los primeros 30 días de ingreso. Las licencias tomadas por otros motivos son pagadas dentro de un límite razonable. Cualquier abuso de esta flexibilidad será tomado en serio y puede ser motivo de separación, sujeto a revisión por un comité de 5 miembros elegido al azar en cada caso."
+      },
+      {
+        "num": "08",
+        "title": "Nómina autogestionada",
+        "description": "Todos deben gestionar su propia nómina completando el formulario de cálculo de nómina, marcando las licencias con la máxima integridad, para que el pago pueda procesarse a las 6 p. m. del último día laboral del mes. Cualquier falta de integridad puede ser motivo de separación. Se anima a todos a marcar sus licencias para que la compensación sea justa para todos, sin abusar de la política de licencias abierta."
+      },
+      {
+        "num": "09",
+        "title": "Disponibilidad de 2 a 10 p. m."
+      },
+      {
+        "num": "10",
+        "title": "PPP — Plan, Progreso, Problemas",
+        "pre": "Para que el trabajo pueda planificarse, el progreso pueda seguirse y cualquier problema pueda destacarse para facilitar su resolución a tiempo. Los PPP también ayudan a tener referencia de datos durante la presentación y revisión de la autoevaluación.",
+        "code": "Fecha\nPlan\nProgreso\nProblemas",
+        "stepsTitle": "Pasos para redactar el PPP:",
+        "steps": [
+          "Registra el progreso de hoy con cada punto en una línea nueva. Destaca cualquier problema enfrentado en la columna de Problemas, incluyendo enlaces a PRs de GitHub, URLs de despliegue, publicaciones de LinkedIn, videos de YouTube o cualquier otro elemento relevante en Progreso/Problemas.",
+          "Planifica las tareas de mañana. Crea issues de GitHub e incluye los enlaces en la columna de Plan."
+        ]
+      },
+      {
+        "num": "11",
+        "title": "Sentido de pertenencia",
+        "description": "Qyupe promueve el sentido de pertenencia en todo lo que hacemos. Muchas veces, cualquier falta al asumir esa responsabilidad tiene consecuencias."
+      },
+      {
+        "num": "12",
+        "title": "Salvaguardas contra el abuso",
+        "description": "La empresa se reserva el derecho de revocar o suspender una o más de las políticas anteriores para un empleado, contratista o consultor específico en caso de abuso de la flexibilidad otorgada."
+      }
+    ]
+  }
+}

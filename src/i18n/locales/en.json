@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "home": {
+      "title": "Qyupe Software Private Limited | Software, Bookkeeping & US Immigration Paralegal Services",
+      "description": "Qyupe Software Private Limited delivers custom development, dependable bookkeeping, and US immigration paralegal support to startups and growing businesses — under one accountable team."
+    },
+    "policies": {
+      "title": "Workplace Policies | Qyupe Software Private Limited",
+      "description": "EazyStar Systems Inc. and its group companies run on a lean set of workplace policies focused on productivity and minimal management overhead — the same policies Qyupe Software Private Limited follows."
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "clients": "Clients",
+    "contact": "Contact",
+    "workplacePolicies": "Workplace Policies",
+    "getInTouch": "Get in touch"
+  },
+  "hero": {
+    "badge": "Software · Bookkeeping · Compliance · Immigration Paralegal · PR",
+    "title": "Every service you need to scale faster, under one roof",
+    "description": "Qyupe Software Private Limited delivers custom development, dependable bookkeeping, and US immigration paralegal support to startups and growing businesses — under one accountable team.",
+    "ctaPrimary": "Connect with us",
+    "ctaSecondary": "Explore services"
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Three services, one dependable team",
+    "description": "From shipping product to keeping the books straight to navigating US immigration paperwork — we handle the operational work so you can focus on growth.",
+    "items": [
+      { "icon": "◆", "title": "Software Development", "text": "Custom web, mobile, and cloud applications — architecture, build, and post-launch support with AI-assisted delivery for speed and quality." },
+      { "icon": "▤", "title": "Bookkeeping", "text": "Accurate, up-to-date books for US businesses — reconciliations, reporting, and payroll support so your financials are always audit-ready." },
+      { "icon": "✎", "title": "US Immigration Paralegal Services", "text": "Petition preparation and case-tracking support for US immigration filings, working alongside attorneys to keep every case organized and on schedule." },
+      { "icon": "✓", "title": "US Company Compliance", "text": "Registered agent support, annual filings, and regulatory upkeep to keep your US entity in good standing as it grows." },
+      { "icon": "▲", "title": "PR", "text": "Press outreach and narrative building to help you get noticed as you scale." }
+    ]
+  },
+  "about": {
+    "eyebrow": "Who we are",
+    "title": "A subsidiary built on a simple operating system",
+    "description": "Qyupe Software Private Limited is a subsidiary of EazyStar Systems Inc., a US-based company. We run on a lean, transparent set of workplace policies designed for maximum productivity and minimum management overhead — policies we're proud to make public.",
+    "readPolicies": "Read our Workplace Policies →",
+    "stats": [
+      { "value": "100%", "label": "Commitment" },
+      { "value": "Agile", "label": "+ AI-assisted delivery" },
+      { "value": "US-based parent", "label": "EazyStar Systems Inc." }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Our clients",
+    "title": "Trusted by the EazyStar group of companies",
+    "description": "We build and support the platforms behind these products.",
+    "items": [
+      { "name": "eazyPetition", "desc": "US Immigration petition platform", "href": "https://eazypetition.com", "label": "eazypetition.com ↗" },
+      { "name": "trackmypetition", "desc": "USCIS Petition tracking platform", "href": "https://trackmypetition.com", "label": "trackmypetition.com ↗" },
+      { "name": "saasmart", "desc": "Simplifying Asset Accumulation and Shielding", "href": "https://saasmart.us", "label": "saasmart.us ↗" },
+      { "name": "eazystar", "desc": "EazyStar Systems Inc.", "href": "https://eazystar.us", "label": "eazystar.us ↗" }
+    ]
+  },
+  "contact": {
+    "title": "Ready to work together?",
+    "description": "Tell us about your project, your books, or your case — we'll follow up within one business day.",
+    "email": "Hello\\@qyupe.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Qyupe Software Private Limited · A subsidiary of EazyStar Systems Inc."
+  },
+  "policiesPage": {
+    "eyebrow": "Our USP",
+    "title": "Workplace Policies",
+    "intro": "To manage the organization with prime focus on productivity and least management overhead, EazyStar Systems Inc and its group companies follow these policies. Qyupe follows policy guides set by its parent, EazyStar Systems Inc.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Learning first",
+        "description": "Everyone learns first and then works on it, instead of learning while doing — reducing errors that can hurt productivity, timelines, and customer satisfaction. This also prevents low motivation caused by repeated failures."
+      },
+      {
+        "num": "02",
+        "title": "No negotiation during new hire selections",
+        "description": "Maintains fair compensation for everyone within the organization and equal opportunities for all."
+      },
+      {
+        "num": "03",
+        "title": "No retention after resignation",
+        "description": "So that everyone is motivated to raise their concerns — whether about compensation or work — as soon as they are felt."
+      },
+      {
+        "num": "04",
+        "title": "Self-appraisal",
+        "preHtml": "Everyone is compensated according to the performance delivered. Everyone is encouraged to continuously self-review their progress and email their self-appraisal to <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a> with details about improvements achieved since the last appraisal.",
+        "code": "Date of Last appraisal-\nCurrent compensation:\nNew learnings since last appraisal:\nOther key achievements:",
+        "post": "In case the last appraisal is pending for implementation for financial reasons, the next self appraisal can still be submitted. As soon as the company has the budget, the latest approved self-appraisal will go into effect."
+      },
+      {
+        "num": "05",
+        "title": "No smoking",
+        "description": "So that everyone feels safe at the workplace."
+      },
+      {
+        "num": "06",
+        "title": "No notice period",
+        "description": "So that everyone loves working with us and can move on when their mind changes."
+      },
+      {
+        "num": "07",
+        "title": "Flexible leaves",
+        "description": "So that everyone at our company can manage their work-life balance without stress. Any unavailability needs to be communicated in OOO/Break so our team can mitigate the risk arising from it. All medical and exam leaves are paid unless they fall within the first 30 days of joining. Leaves taken for other reasons are paid if within a reasonable limit. Any abuse of this flexibility will be taken seriously and may be the reason for separation, subject to review by a 5-member committee chosen at random for each incidence."
+      },
+      {
+        "num": "08",
+        "title": "Self-payroll",
+        "description": "Everyone has to facilitate their payroll by completing the payroll calculation form, marking leaves with the highest integrity, so that payout can be processed by 6 pm on the last working day of the month. Any lapse in integrity may be reason for separation. Everyone is encouraged to mark leaves so that everyone is compensated fairly, without abuse of the open leave policy."
+      },
+      {
+        "num": "09",
+        "title": "Availability between 2–10 pm"
+      },
+      {
+        "num": "10",
+        "title": "PPP — Plan, Progress, Problems",
+        "pre": "So that work can be planned, progress can be tracked, and any problems can be highlighted to facilitate resolution in time. PPPs also help reference the data during self-appraisal submission and review.",
+        "code": "Date\nPlan\nProgress\nProblems",
+        "stepsTitle": "Steps to draft the PPP:",
+        "steps": [
+          "Record today's progress with each item on a new line. Highlight any problems faced in the Problems column, including links to GitHub PRs, deployment URLs, LinkedIn posts, YouTube videos, or any other relevant item in Progress/Problems.",
+          "Plan the tasks for tomorrow. Create GitHub issues and include the links in the Plan column."
+        ]
+      },
+      {
+        "num": "11",
+        "title": "Ownership",
+        "description": "Qyupe promotes ownership in what we do. Many times, any lapse in assuming ownership has consequences."
+      },
+      {
+        "num": "12",
+        "title": "Guardrails against abuse",
+        "description": "The company reserves the right to revoke or suspend one or more of the above policies for a specific employee, contractor, or consultant in case of abuse of the flexibility provided."
+      }
+    ]
+  }
+}

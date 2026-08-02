@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "home": {
+      "title": "Qyupe Software Private Limited | 软件开发、簿记与美国移民辅助法律服务",
+      "description": "Qyupe Software Private Limited 由一支值得信赖的团队,为初创企业和成长型企业提供定制软件开发、可靠的簿记服务以及美国移民辅助法律支持。"
+    },
+    "policies": {
+      "title": "职场政策 | Qyupe Software Private Limited",
+      "description": "EazyStar Systems Inc. 及其集团公司遵循一套精简的职场政策,专注于提高生产力并将管理负担降到最低 —— 这也是 Qyupe Software Private Limited 所遵循的政策。"
+    }
+  },
+  "nav": {
+    "services": "服务",
+    "about": "关于我们",
+    "clients": "客户",
+    "contact": "联系我们",
+    "workplacePolicies": "职场政策",
+    "getInTouch": "联系我们"
+  },
+  "hero": {
+    "badge": "软件 · 簿记 · 合规 · 移民辅助法律服务 · 公关",
+    "title": "一站式服务,助您加速成长",
+    "description": "Qyupe Software Private Limited 由一支值得信赖的团队,为初创企业和成长型企业提供定制软件开发、可靠的簿记服务以及美国移民辅助法律支持。",
+    "ctaPrimary": "联系我们",
+    "ctaSecondary": "了解服务"
+  },
+  "services": {
+    "eyebrow": "我们的业务",
+    "title": "三项服务,一支值得信赖的团队",
+    "description": "从产品交付、账目管理,到处理美国移民文书工作 —— 我们负责运营层面的工作,让您专注于业务增长。",
+    "items": [
+      { "icon": "◆", "title": "软件开发", "text": "定制化 Web、移动端和云端应用 —— 涵盖架构设计、构建以及上线后的支持,并借助 AI 辅助交付以提升速度和质量。" },
+      { "icon": "▤", "title": "簿记服务", "text": "为美国企业提供准确、及时的账目管理 —— 包括对账、报表编制和薪资支持,确保您的财务随时可供审计。" },
+      { "icon": "✎", "title": "美国移民辅助法律服务", "text": "为美国移民申请提供请愿书准备和案件跟踪支持,与律师协作,确保每个案件都井然有序、按时推进。" },
+      { "icon": "✓", "title": "美国公司合规", "text": "提供注册代理支持、年度申报以及监管维护,确保您的美国实体在业务增长的同时保持良好合规状态。" },
+      { "icon": "▲", "title": "公关", "text": "通过媒体推广和品牌故事塑造,帮助您在成长过程中获得关注。" }
+    ]
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "title": "建立在简单运营体系之上的子公司",
+    "description": "Qyupe Software Private Limited 是美国公司 EazyStar Systems Inc. 的子公司。我们遵循一套精简、透明的职场政策,旨在实现最大化的生产力和最小化的管理负担 —— 我们很自豪能够公开这些政策。",
+    "readPolicies": "阅读我们的职场政策 →",
+    "stats": [
+      { "value": "100%", "label": "全心投入" },
+      { "value": "敏捷", "label": "+ AI 辅助交付" },
+      { "value": "美国母公司", "label": "EazyStar Systems Inc." }
+    ]
+  },
+  "clients": {
+    "eyebrow": "我们的客户",
+    "title": "深受 EazyStar 集团公司信赖",
+    "description": "我们构建并支持以下产品背后的平台。",
+    "items": [
+      { "name": "eazyPetition", "desc": "美国移民请愿平台", "href": "https://eazypetition.com", "label": "eazypetition.com ↗" },
+      { "name": "trackmypetition", "desc": "USCIS 移民申请跟踪平台", "href": "https://trackmypetition.com", "label": "trackmypetition.com ↗" },
+      { "name": "saasmart", "desc": "简化资产积累与保护", "href": "https://saasmart.us", "label": "saasmart.us ↗" },
+      { "name": "eazystar", "desc": "EazyStar Systems Inc.", "href": "https://eazystar.us", "label": "eazystar.us ↗" }
+    ]
+  },
+  "contact": {
+    "title": "准备好携手合作了吗?",
+    "description": "告诉我们您的项目、账目或案件情况 —— 我们将在一个工作日内跟进回复。",
+    "email": "Hello\\@qyupe.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Qyupe Software Private Limited · EazyStar Systems Inc. 旗下子公司"
+  },
+  "policiesPage": {
+    "eyebrow": "我们的核心优势",
+    "title": "职场政策",
+    "intro": "为了以提升生产力为首要目标、并将管理负担降到最低来管理公司,EazyStar Systems Inc 及其集团公司遵循以下政策。Qyupe 遵循其母公司 EazyStar Systems Inc. 制定的政策指引。",
+    "items": [
+      {
+        "num": "01",
+        "title": "先学习,后上手",
+        "description": "每个人都先学习,再动手实践,而不是边做边学 —— 这样可以减少影响生产力、进度和客户满意度的失误,同时也能避免因反复失败而导致的低落士气。"
+      },
+      {
+        "num": "02",
+        "title": "新员工录用不接受议价",
+        "description": "确保组织内每个人的薪酬公平,并为所有人提供平等的机会。"
+      },
+      {
+        "num": "03",
+        "title": "离职后不强留",
+        "description": "让每个人在感受到问题的第一时间,就有动力提出自己的诉求 —— 无论是关于薪酬还是工作方面。"
+      },
+      {
+        "num": "04",
+        "title": "自我评估",
+        "preHtml": "每个人的薪酬都根据其实际表现来确定。我们鼓励所有人持续自我审视自己的进步,并将自我评估邮件发送至 <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a>,详细说明自上次评估以来取得的进步。",
+        "code": "上次评估日期-\n当前薪酬:\n自上次评估以来的新收获:\n其他重要成就:",
+        "post": "如果上次评估因财务原因尚未落实,下一次自我评估仍可照常提交。一旦公司有了预算,最新获批的自我评估将立即生效。"
+      },
+      {
+        "num": "05",
+        "title": "禁止吸烟",
+        "description": "让每个人在工作场所都能感到安全。"
+      },
+      {
+        "num": "06",
+        "title": "无需提前通知期",
+        "description": "让每个人都能享受与我们共事的过程,并在改变主意时可以自由离开。"
+      },
+      {
+        "num": "07",
+        "title": "弹性休假",
+        "description": "让公司里的每个人都能在没有压力的情况下,妥善平衡工作与生活。任何无法保持联络的情况都需要在 OOO/Break 中说明,以便团队能够降低由此带来的风险。除非发生在入职后的前 30 天内,所有病假和考试假均带薪。因其他原因请的假在合理限度内也带薪。任何滥用这一弹性制度的行为都将被认真对待,并可能导致离职处理,每起事件均会交由随机抽选的 5 人委员会进行审查。"
+      },
+      {
+        "num": "08",
+        "title": "自助薪资申报",
+        "description": "每个人都需要填写薪资计算表,以最高的诚信标记休假情况,以便薪资能在每月最后一个工作日下午 6 点前处理完毕,从而配合完成自己的薪资发放。任何诚信方面的失误都可能导致离职处理。我们鼓励每个人如实标记休假,以确保在不滥用开放式休假政策的前提下,大家都能获得公平的薪酬。"
+      },
+      {
+        "num": "09",
+        "title": "在下午 2 点至晚上 10 点之间保持在线"
+      },
+      {
+        "num": "10",
+        "title": "PPP —— 计划、进展、问题",
+        "pre": "以便工作能够被合理规划、进展能够被追踪,并且任何问题都能被及时标记出来,以促进按时解决。PPP 也有助于在自我评估提交与审阅时提供数据参考。",
+        "code": "日期\n计划\n进展\n问题",
+        "stepsTitle": "撰写 PPP 的步骤:",
+        "steps": [
+          "将今天的进展逐条记录在新的一行中。在“问题”栏中标注遇到的任何问题,并附上 GitHub PR、部署链接、LinkedIn 帖子、YouTube 视频等与“进展/问题”相关的链接。",
+          "规划明天的任务。创建 GitHub issue,并将链接列在“计划”栏中。"
+        ]
+      },
+      {
+        "num": "11",
+        "title": "责任担当",
+        "description": "Qyupe 在我们所做的一切中都倡导责任担当。很多时候,在承担责任方面出现的任何疏漏都会带来相应后果。"
+      },
+      {
+        "num": "12",
+        "title": "防止滥用的保障机制",
+        "description": "如果特定员工、承包商或顾问滥用公司提供的弹性政策,公司保留撤销或暂停上述一项或多项政策的权利。"
+      }
+    ]
+  }
+}

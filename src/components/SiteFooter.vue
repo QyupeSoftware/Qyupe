@@ -1,11 +1,22 @@
+<script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
+import { DEFAULT_LOCALE, policiesPath } from '../i18n/locales'
+
+const { t } = useI18n()
+const route = useRoute()
+const policies = computed(() => policiesPath(route.meta.locale || DEFAULT_LOCALE))
+</script>
+
 <template>
   <footer class="site-footer">
     <div class="inner">
-      <div class="copyright">© 2026 Qyupe Software Private Limited · A subsidiary of EazyStar Systems Inc.</div>
+      <div class="copyright">{{ t('footer.copyright') }}</div>
 
       <div class="links">
         <a href="mailto:Hello@qyupe.com">Hello@qyupe.com</a>
-        <router-link to="/policies" class="policies-link">Workplace Policies</router-link>
+        <router-link :to="policies" class="policies-link">{{ t('nav.workplacePolicies') }}</router-link>
       </div>
     </div>
   </footer>

@@ -1,105 +1,49 @@
 <script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import { siteUrl, siteName } from '../site.config'
+import { LOCALES, DEFAULT_LOCALE, policiesPath } from '../i18n/locales'
 import SiteHeader from '../components/SiteHeader.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import logoQyupe from '../assets/logo-qyupe.png'
 
-const title = 'Workplace Policies | Qyupe Software Private Limited'
-const description = "EazyStar Systems Inc. and its group companies run on a lean set of workplace policies focused on productivity and minimal management overhead — the same policies Qyupe Software Private Limited follows."
-const url = siteUrl + '/policies'
+const { t, tm } = useI18n()
+const route = useRoute()
+const locale = computed(() => route.meta.locale || DEFAULT_LOCALE)
+
+const title = computed(() => t('meta.policies.title'))
+const description = computed(() => t('meta.policies.description'))
+const url = computed(() => siteUrl + policiesPath(locale.value))
 const ogImage = siteUrl + logoQyupe
 
-useHead({
-  title,
+useHead(() => ({
+  title: title.value,
+  htmlAttrs: { lang: locale.value },
   meta: [
-    { name: 'description', content: description },
+    { name: 'description', content: description.value },
     { property: 'og:type', content: 'article' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:url', content: url },
+    { property: 'og:title', content: title.value },
+    { property: 'og:description', content: description.value },
+    { property: 'og:url', content: url.value },
     { property: 'og:image', content: ogImage },
     { property: 'og:site_name', content: siteName },
+    { property: 'og:locale', content: locale.value },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
+    { name: 'twitter:title', content: title.value },
+    { name: 'twitter:description', content: description.value },
     { name: 'twitter:image', content: ogImage },
   ],
   link: [
-    { rel: 'canonical', href: url },
+    { rel: 'canonical', href: url.value },
     { rel: 'llms-txt', href: siteUrl + '/llms.txt', type: 'text/markdown' },
+    ...LOCALES.map((l) => ({ rel: 'alternate', hreflang: l.code, href: siteUrl + policiesPath(l.code) })),
+    { rel: 'alternate', hreflang: 'x-default', href: siteUrl + policiesPath(DEFAULT_LOCALE) },
   ],
-})
+}))
 
-const policies = [
-  {
-    num: '01',
-    title: 'Learning first',
-    description: 'Everyone learns first and then works on it, instead of learning while doing — reducing errors that can hurt productivity, timelines, and customer satisfaction. This also prevents low motivation caused by repeated failures.',
-  },
-  {
-    num: '02',
-    title: 'No negotiation during new hire selections',
-    description: 'Maintains fair compensation for everyone within the organization and equal opportunities for all.',
-  },
-  {
-    num: '03',
-    title: 'No retention after resignation',
-    description: 'So that everyone is motivated to raise their concerns — whether about compensation or work — as soon as they are felt.',
-  },
-  {
-    num: '04',
-    title: 'Self-appraisal',
-    preHtml: 'Everyone is compensated according to the performance delivered. Everyone is encouraged to continuously self-review their progress and email their self-appraisal to <a href="mailto:self-appraisals@eazystar.us">self-appraisals@eazystar.us</a> with details about improvements achieved since the last appraisal.',
-    code: 'Date of Last appraisal-\nCurrent compensation:\nNew learnings since last appraisal:\nOther key achievements:',
-    post: 'In case the last appraisal is pending for implementation for financial reasons, the next self appraisal can still be submitted. As soon as the company has the budget, the latest approved self-appraisal will go into effect.',
-  },
-  {
-    num: '05',
-    title: 'No smoking',
-    description: 'So that everyone feels safe at the workplace.',
-  },
-  {
-    num: '06',
-    title: 'No notice period',
-    description: 'So that everyone loves working with us and can move on when their mind changes.',
-  },
-  {
-    num: '07',
-    title: 'Flexible leaves',
-    description: 'So that everyone at our company can manage their work-life balance without stress. Any unavailability needs to be communicated in OOO/Break so our team can mitigate the risk arising from it. All medical and exam leaves are paid unless they fall within the first 30 days of joining. Leaves taken for other reasons are paid if within a reasonable limit. Any abuse of this flexibility will be taken seriously and may be the reason for separation, subject to review by a 5-member committee chosen at random for each incidence.',
-  },
-  {
-    num: '08',
-    title: 'Self-payroll',
-    description: 'Everyone has to facilitate their payroll by completing the payroll calculation form, marking leaves with the highest integrity, so that payout can be processed by 6 pm on the last working day of the month. Any lapse in integrity may be reason for separation. Everyone is encouraged to mark leaves so that everyone is compensated fairly, without abuse of the open leave policy.',
-  },
-  {
-    num: '09',
-    title: 'Availability between 2–10 pm',
-  },
-  {
-    num: '10',
-    title: 'PPP — Plan, Progress, Problems',
-    pre: "So that work can be planned, progress can be tracked, and any problems can be highlighted to facilitate resolution in time. PPPs also help reference the data during self-appraisal submission and review.",
-    code: 'Date\nPlan\nProgress\nProblems',
-    stepsTitle: 'Steps to draft the PPP:',
-    steps: [
-      "Record today's progress with each item on a new line. Highlight any problems faced in the Problems column, including links to GitHub PRs, deployment URLs, LinkedIn posts, YouTube videos, or any other relevant item in Progress/Problems.",
-      'Plan the tasks for tomorrow. Create GitHub issues and include the links in the Plan column.',
-    ],
-  },
-  {
-    num: '11',
-    title: 'Ownership',
-    description: 'Qyupe promotes ownership in what we do. Many times, any lapse in assuming ownership has consequences.',
-  },
-  {
-    num: '12',
-    title: 'Guardrails against abuse',
-    description: 'The company reserves the right to revoke or suspend one or more of the above policies for a specific employee, contractor, or consultant in case of abuse of the flexibility provided.',
-  },
-]
+const policies = computed(() => tm('policiesPage.items'))
 </script>
 
 <template>
@@ -107,9 +51,9 @@ const policies = [
     <SiteHeader />
 
     <section class="content">
-      <div class="eyebrow">Our USP</div>
-      <h1>Workplace Policies</h1>
-      <p class="intro">To manage the organization with prime focus on productivity and least management overhead, EazyStar Systems Inc and its group companies follow these policies. Qyupe follows policy guides set by its parent, EazyStar Systems Inc.</p>
+      <div class="eyebrow">{{ t('policiesPage.eyebrow') }}</div>
+      <h1>{{ t('policiesPage.title') }}</h1>
+      <p class="intro">{{ t('policiesPage.intro') }}</p>
 
       <div class="list">
         <div v-for="p in policies" :key="p.num" class="item">

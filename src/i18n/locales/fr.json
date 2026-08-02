@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "home": {
+      "title": "Qyupe Software Private Limited | Développement logiciel, comptabilité et services paralégaux d'immigration aux États-Unis",
+      "description": "Qyupe Software Private Limited propose du développement sur mesure, une comptabilité fiable et un accompagnement paralégal en immigration américaine pour les startups et les entreprises en croissance, avec une seule équipe responsable."
+    },
+    "policies": {
+      "title": "Politiques d'entreprise | Qyupe Software Private Limited",
+      "description": "EazyStar Systems Inc. et ses filiales fonctionnent avec un ensemble simple de politiques d'entreprise axées sur la productivité et une charge de gestion minimale — les mêmes politiques suivies par Qyupe Software Private Limited."
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "about": "À propos",
+    "clients": "Clients",
+    "contact": "Contact",
+    "workplacePolicies": "Politiques d'entreprise",
+    "getInTouch": "Nous contacter"
+  },
+  "hero": {
+    "badge": "Logiciel · Comptabilité · Conformité · Paralégal immigration · RP",
+    "title": "Tous les services dont vous avez besoin pour croître plus vite, sous un même toit",
+    "description": "Qyupe Software Private Limited propose du développement sur mesure, une comptabilité fiable et un accompagnement paralégal en immigration américaine pour les startups et les entreprises en croissance, avec une seule équipe responsable.",
+    "ctaPrimary": "Nous contacter",
+    "ctaSecondary": "Découvrir nos services"
+  },
+  "services": {
+    "eyebrow": "Ce que nous faisons",
+    "title": "Trois services, une équipe fiable",
+    "description": "De la livraison de produits à la tenue rigoureuse des comptes, en passant par les démarches d'immigration américaine — nous prenons en charge le travail opérationnel pour que vous puissiez vous concentrer sur la croissance.",
+    "items": [
+      { "icon": "◆", "title": "Développement logiciel", "text": "Applications web, mobiles et cloud sur mesure — architecture, développement et support post-lancement, avec une livraison assistée par IA pour plus de rapidité et de qualité." },
+      { "icon": "▤", "title": "Comptabilité", "text": "Une comptabilité précise et à jour pour les entreprises américaines — rapprochements, rapports et gestion de la paie pour que vos finances soient toujours prêtes pour un audit." },
+      { "icon": "✎", "title": "Services paralégaux d'immigration aux États-Unis", "text": "Préparation des pétitions et suivi des dossiers d'immigration américaine, en collaboration avec des avocats, pour garder chaque dossier organisé et dans les délais." },
+      { "icon": "✓", "title": "Conformité des entreprises américaines", "text": "Support d'agent enregistré, dépôts annuels et maintenance réglementaire pour que votre entité américaine reste en règle à mesure qu'elle se développe." },
+      { "icon": "▲", "title": "RP", "text": "Relations presse et construction de récit pour vous aider à vous faire remarquer en pleine croissance." }
+    ]
+  },
+  "about": {
+    "eyebrow": "Qui nous sommes",
+    "title": "Une filiale construite sur un système de fonctionnement simple",
+    "description": "Qyupe Software Private Limited est une filiale d'EazyStar Systems Inc., une entreprise basée aux États-Unis. Nous fonctionnons selon un ensemble de politiques d'entreprise simples et transparentes, conçues pour maximiser la productivité et minimiser la charge de gestion — des politiques que nous sommes fiers de rendre publiques.",
+    "readPolicies": "Lire nos politiques d'entreprise →",
+    "stats": [
+      { "value": "100 %", "label": "Engagement" },
+      { "value": "Agile", "label": "+ livraison assistée par IA" },
+      { "value": "Maison mère basée aux États-Unis", "label": "EazyStar Systems Inc." }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Nos clients",
+    "title": "La confiance du groupe EazyStar",
+    "description": "Nous construisons et maintenons les plateformes derrière ces produits.",
+    "items": [
+      { "name": "eazyPetition", "desc": "Plateforme de pétitions d'immigration américaine", "href": "https://eazypetition.com", "label": "eazypetition.com ↗" },
+      { "name": "trackmypetition", "desc": "Plateforme de suivi des pétitions USCIS", "href": "https://trackmypetition.com", "label": "trackmypetition.com ↗" },
+      { "name": "saasmart", "desc": "Simplifier l'accumulation et la protection des actifs", "href": "https://saasmart.us", "label": "saasmart.us ↗" },
+      { "name": "eazystar", "desc": "EazyStar Systems Inc.", "href": "https://eazystar.us", "label": "eazystar.us ↗" }
+    ]
+  },
+  "contact": {
+    "title": "Prêt à travailler ensemble ?",
+    "description": "Parlez-nous de votre projet, de votre comptabilité ou de votre dossier — nous reviendrons vers vous sous un jour ouvré.",
+    "email": "Hello\\@qyupe.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Qyupe Software Private Limited · Une filiale d'EazyStar Systems Inc."
+  },
+  "policiesPage": {
+    "eyebrow": "Notre différenciateur",
+    "title": "Politiques d'entreprise",
+    "intro": "Pour gérer l'organisation en mettant l'accent sur la productivité et une charge de gestion minimale, EazyStar Systems Inc et ses filiales suivent ces politiques. Qyupe applique les lignes directrices définies par sa maison mère, EazyStar Systems Inc.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Apprendre d'abord",
+        "description": "Chacun apprend d'abord puis met en pratique, plutôt que d'apprendre en faisant — ce qui réduit les erreurs pouvant nuire à la productivité, aux délais et à la satisfaction client. Cela évite aussi la démotivation causée par des échecs répétés."
+      },
+      {
+        "num": "02",
+        "title": "Aucune négociation lors du recrutement",
+        "description": "Maintient une rémunération équitable pour tous au sein de l'organisation et des opportunités égales pour tous."
+      },
+      {
+        "num": "03",
+        "title": "Aucune rétention après démission",
+        "description": "Afin que chacun soit motivé à exprimer ses préoccupations — qu'il s'agisse de rémunération ou de travail — dès qu'elles se manifestent."
+      },
+      {
+        "num": "04",
+        "title": "Auto-évaluation",
+        "preHtml": "Chacun est rémunéré selon la performance fournie. Chacun est encouragé à revoir en continu sa progression et à envoyer son auto-évaluation à <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a> en détaillant les progrès réalisés depuis la dernière évaluation.",
+        "code": "Date de la dernière évaluation-\nRémunération actuelle :\nNouveaux apprentissages depuis la dernière évaluation :\nAutres réalisations clés :",
+        "post": "Si la dernière évaluation est en attente de mise en œuvre pour des raisons financières, l'auto-évaluation suivante peut tout de même être soumise. Dès que l'entreprise disposera du budget nécessaire, la dernière auto-évaluation approuvée entrera en vigueur."
+      },
+      {
+        "num": "05",
+        "title": "Interdiction de fumer",
+        "description": "Afin que chacun se sente en sécurité sur le lieu de travail."
+      },
+      {
+        "num": "06",
+        "title": "Aucun préavis",
+        "description": "Afin que chacun aime travailler avec nous et puisse partir librement lorsqu'il change d'avis."
+      },
+      {
+        "num": "07",
+        "title": "Congés flexibles",
+        "description": "Afin que chacun dans notre entreprise puisse gérer son équilibre vie professionnelle/vie personnelle sans stress. Toute indisponibilité doit être communiquée dans OOO/Break afin que notre équipe puisse en atténuer le risque. Tous les congés médicaux et d'examens sont payés, sauf s'ils surviennent dans les 30 premiers jours suivant l'embauche. Les congés pris pour d'autres raisons sont payés dans une limite raisonnable. Tout abus de cette flexibilité sera pris au sérieux et pourra entraîner une séparation, sous réserve d'examen par un comité de 5 membres tiré au sort pour chaque cas."
+      },
+      {
+        "num": "08",
+        "title": "Auto-gestion de la paie",
+        "description": "Chacun doit faciliter le traitement de sa paie en remplissant le formulaire de calcul de paie et en déclarant ses congés avec la plus grande intégrité, afin que le paiement puisse être traité avant 18 h le dernier jour ouvré du mois. Tout manquement à l'intégrité peut être motif de séparation. Chacun est encouragé à déclarer ses congés afin que la rémunération soit équitable pour tous, sans abus de la politique de congés ouverte."
+      },
+      {
+        "num": "09",
+        "title": "Disponibilité de 14 h à 22 h"
+      },
+      {
+        "num": "10",
+        "title": "PPP — Plan, Progrès, Problèmes",
+        "pre": "Afin que le travail puisse être planifié, le progrès suivi, et que tout problème puisse être signalé pour faciliter sa résolution à temps. Les PPP aident aussi à retrouver ces données lors de la soumission et de la révision de l'auto-évaluation.",
+        "code": "Date\nPlan\nProgrès\nProblèmes",
+        "stepsTitle": "Étapes pour rédiger le PPP :",
+        "steps": [
+          "Notez la progression du jour, chaque élément sur une nouvelle ligne. Signalez tout problème rencontré dans la colonne Problèmes, y compris les liens vers des PR GitHub, des URL de déploiement, des publications LinkedIn, des vidéos YouTube ou tout autre élément pertinent dans Progrès/Problèmes.",
+          "Planifiez les tâches du lendemain. Créez des issues GitHub et incluez les liens dans la colonne Plan."
+        ]
+      },
+      {
+        "num": "11",
+        "title": "Sens des responsabilités",
+        "description": "Qyupe encourage le sens des responsabilités dans tout ce que nous faisons. Bien souvent, tout manquement à assumer cette responsabilité a des conséquences."
+      },
+      {
+        "num": "12",
+        "title": "Garde-fous contre les abus",
+        "description": "L'entreprise se réserve le droit de révoquer ou de suspendre une ou plusieurs des politiques ci-dessus pour un employé, contractant ou consultant donné en cas d'abus de la flexibilité accordée."
+      }
+    ]
+  }
+}

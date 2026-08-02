@@ -1,6 +1,10 @@
 <script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import { siteUrl, siteName } from '../site.config'
+import { LOCALES, DEFAULT_LOCALE, homePath, policiesPath } from '../i18n/locales'
 import SiteHeader from '../components/SiteHeader.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import logoQyupe from '../assets/logo-qyupe.png'
@@ -9,29 +13,37 @@ import logoTrackMyPetition from '../assets/logo-trackmypetition.png'
 import logoSaasmart from '../assets/logo-saasmart.png'
 import logoEazystar from '../assets/logo-eazystar.png'
 
-const title = 'Qyupe Software Private Limited | Software, Bookkeeping & US Immigration Paralegal Services'
-const description = 'Qyupe Software Private Limited delivers custom development, dependable bookkeeping, and US immigration paralegal support to startups and growing businesses — under one accountable team.'
-const url = siteUrl + '/'
+const { t, tm } = useI18n()
+const route = useRoute()
+const locale = computed(() => route.meta.locale || DEFAULT_LOCALE)
+
+const title = computed(() => t('meta.home.title'))
+const description = computed(() => t('meta.home.description'))
+const url = computed(() => siteUrl + homePath(locale.value))
 const ogImage = siteUrl + logoQyupe
 
-useHead({
-  title,
+useHead(() => ({
+  title: title.value,
+  htmlAttrs: { lang: locale.value },
   meta: [
-    { name: 'description', content: description },
+    { name: 'description', content: description.value },
     { property: 'og:type', content: 'website' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:url', content: url },
+    { property: 'og:title', content: title.value },
+    { property: 'og:description', content: description.value },
+    { property: 'og:url', content: url.value },
     { property: 'og:image', content: ogImage },
     { property: 'og:site_name', content: siteName },
+    { property: 'og:locale', content: locale.value },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
+    { name: 'twitter:title', content: title.value },
+    { name: 'twitter:description', content: description.value },
     { name: 'twitter:image', content: ogImage },
   ],
   link: [
-    { rel: 'canonical', href: url },
+    { rel: 'canonical', href: url.value },
     { rel: 'llms-txt', href: siteUrl + '/llms.txt', type: 'text/markdown' },
+    ...LOCALES.map((l) => ({ rel: 'alternate', hreflang: l.code, href: siteUrl + homePath(l.code) })),
+    { rel: 'alternate', hreflang: 'x-default', href: siteUrl + homePath(DEFAULT_LOCALE) },
   ],
   script: [
     {
@@ -40,10 +52,10 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: siteName,
-        url,
+        url: url.value,
         logo: ogImage,
         email: 'Hello@qyupe.com',
-        description,
+        description: description.value,
         parentOrganization: {
           '@type': 'Organization',
           name: 'EazyStar Systems Inc.',
@@ -52,22 +64,15 @@ useHead({
       }),
     },
   ],
-})
+}))
 
-const services = [
-  { icon: '◆', title: 'Software Development', text: 'Custom web, mobile, and cloud applications — architecture, build, and post-launch support with AI-assisted delivery for speed and quality.' },
-  { icon: '▤', title: 'Bookkeeping', text: 'Accurate, up-to-date books for US businesses — reconciliations, reporting, and payroll support so your financials are always audit-ready.' },
-  { icon: '✎', title: 'US Immigration Paralegal Services', text: 'Petition preparation and case-tracking support for US immigration filings, working alongside attorneys to keep every case organized and on schedule.' },
-  { icon: '✓', title: 'US Company Compliance', text: 'Registered agent support, annual filings, and regulatory upkeep to keep your US entity in good standing as it grows.' },
-  { icon: '▲', title: 'PR', text: 'Press outreach and narrative building to help you get noticed as you scale.' },
-]
+const services = computed(() => tm('services.items'))
 
-const clients = [
-  { logo: logoEazyPetition, name: 'eazyPetition', desc: 'US Immigration petition platform', href: 'https://eazypetition.com', label: 'eazypetition.com ↗' },
-  { logo: logoTrackMyPetition, name: 'trackmypetition', desc: 'USCIS Petition tracking platform', href: 'https://trackmypetition.com', label: 'trackmypetition.com ↗' },
-  { logo: logoSaasmart, name: 'saasmart', desc: 'Simplifying Asset Accumulation and Shielding', href: 'https://saasmart.us', label: 'saasmart.us ↗' },
-  { logo: logoEazystar, name: 'eazystar', desc: 'EazyStar Systems Inc.', href: 'https://eazystar.us', label: 'eazystar.us ↗' },
-]
+const clientLogos = [logoEazyPetition, logoTrackMyPetition, logoSaasmart, logoEazystar]
+const clients = computed(() => tm('clients.items').map((c, i) => ({ ...c, logo: clientLogos[i] })))
+
+const stats = computed(() => tm('about.stats'))
+const policies = computed(() => policiesPath(locale.value))
 </script>
 
 <template>
@@ -76,21 +81,21 @@ const clients = [
 
     <section class="hero">
       <div class="hero-inner">
-        <div class="badge">✦ Software · Bookkeeping · Compliance · Immigration Paralegal · PR</div>
-        <h1>Every service you need to scale faster, under one roof</h1>
-        <p>{{ description }}</p>
+        <div class="badge">✦ {{ t('hero.badge') }}</div>
+        <h1>{{ t('hero.title') }}</h1>
+        <p>{{ t('hero.description') }}</p>
         <div class="cta-row">
-          <a href="mailto:Hello@qyupe.com?subject=Project%20inquiry" class="btn-primary">Connect with us</a>
-          <a href="#services" class="btn-secondary">Explore services</a>
+          <a href="mailto:Hello@qyupe.com?subject=Project%20inquiry" class="btn-primary">{{ t('hero.ctaPrimary') }}</a>
+          <a href="#services" class="btn-secondary">{{ t('hero.ctaSecondary') }}</a>
         </div>
       </div>
     </section>
 
     <section id="services" class="services">
       <div class="section-head">
-        <div class="eyebrow">What we do</div>
-        <h2>Three services, one dependable team</h2>
-        <p>From shipping product to keeping the books straight to navigating US immigration paperwork — we handle the operational work so you can focus on growth.</p>
+        <div class="eyebrow">{{ t('services.eyebrow') }}</div>
+        <h2>{{ t('services.title') }}</h2>
+        <p>{{ t('services.description') }}</p>
       </div>
       <div class="services-grid">
         <div v-for="s in services" :key="s.title" class="card">
@@ -104,23 +109,15 @@ const clients = [
     <section id="about" class="about">
       <div class="about-inner">
         <div>
-          <div class="eyebrow eyebrow-dark">Who we are</div>
-          <h2>A subsidiary built on a simple operating system</h2>
-          <p>Qyupe Software Private Limited is a subsidiary of EazyStar Systems Inc., a US-based company. We run on a lean, transparent set of workplace policies designed for maximum productivity and minimum management overhead — policies we're proud to make public.</p>
-          <router-link to="/policies" class="policies-link">Read our Workplace Policies →</router-link>
+          <div class="eyebrow eyebrow-dark">{{ t('about.eyebrow') }}</div>
+          <h2>{{ t('about.title') }}</h2>
+          <p>{{ t('about.description') }}</p>
+          <router-link :to="policies" class="policies-link">{{ t('about.readPolicies') }}</router-link>
         </div>
         <div class="stats-grid">
-          <div class="stat">
-            <div class="stat-value">100%</div>
-            <div class="stat-label">Commitment</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">Agile</div>
-            <div class="stat-label">+ AI-assisted delivery</div>
-          </div>
-          <div class="stat stat-wide">
-            <div class="stat-value">US-based parent</div>
-            <div class="stat-label">EazyStar Systems Inc.</div>
+          <div v-for="(s, i) in stats" :key="i" class="stat" :class="{ 'stat-wide': i === stats.length - 1 }">
+            <div class="stat-value">{{ s.value }}</div>
+            <div class="stat-label">{{ s.label }}</div>
           </div>
         </div>
       </div>
@@ -128,9 +125,9 @@ const clients = [
 
     <section id="clients" class="clients">
       <div class="section-head">
-        <div class="eyebrow">Our clients</div>
-        <h2>Trusted by the EazyStar group of companies</h2>
-        <p>We build and support the platforms behind these products.</p>
+        <div class="eyebrow">{{ t('clients.eyebrow') }}</div>
+        <h2>{{ t('clients.title') }}</h2>
+        <p>{{ t('clients.description') }}</p>
       </div>
       <div class="clients-grid">
         <div v-for="c in clients" :key="c.name" class="client-card">
@@ -145,11 +142,11 @@ const clients = [
     <section id="contact" class="contact">
       <div class="contact-box">
         <div>
-          <h2>Ready to work together?</h2>
-          <p>Tell us about your project, your books, or your case — we'll follow up within one business day.</p>
+          <h2>{{ t('contact.title') }}</h2>
+          <p>{{ t('contact.description') }}</p>
         </div>
         <div class="contact-cta">
-          <a href="mailto:Hello@qyupe.com">Hello@qyupe.com</a>
+          <a href="mailto:Hello@qyupe.com">{{ t('contact.email') }}</a>
         </div>
       </div>
     </section>

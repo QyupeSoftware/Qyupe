@@ -6,8 +6,8 @@ Qyupe runs on a lean, transparent set of workplace policies designed for maximum
 
 ## Services
 
-- Software Development: Custom web, mobile, and cloud applications — architecture, build, and post-launch support with AI-assisted delivery.
-- Bookkeeping: Accurate, up-to-date books for US businesses — reconciliations, reporting, and payroll support.
+- Software Development: Custom web, mobile, and cloud applications - architecture, build, and post-launch support with AI-assisted delivery.
+- Bookkeeping: Accurate, up-to-date books for US businesses - reconciliations, reporting, and payroll support.
 - US Immigration Paralegal Services: Petition preparation and case-tracking support for US immigration filings, working alongside attorneys.
 - US Company Compliance: Registered agent support, annual filings, and regulatory upkeep for US entities.
 - PR: Press outreach and narrative building.

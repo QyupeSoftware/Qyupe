@@ -1,12 +1,15 @@
 import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
-import Home from './pages/Home.vue'
-import Policies from './pages/Policies.vue'
+import { routes, DEFAULT_LOCALE } from './router'
+import { createAppI18n } from './i18n'
 import './style.css'
 
-const routes = [
-  { path: '/', component: Home },
-  { path: '/policies', component: Policies },
-]
+export const createApp = ViteSSG(App, { routes }, ({ app, router }) => {
+  const i18n = createAppI18n()
+  app.use(i18n)
 
-export const createApp = ViteSSG(App, { routes })
+  router.beforeEach((to) => {
+    const locale = to.meta.locale || DEFAULT_LOCALE
+    i18n.global.locale.value = locale
+  })
+})
