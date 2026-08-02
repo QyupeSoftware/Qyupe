@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qyupe.com/sitemap.xml
+
+# LLM-friendly content (see https://llmstxt.org)
+# https://qyupe.com/llms.txt
+# https://qyupe.com/llms-full.txt

@@ -1,0 +1,30 @@
+{
+  "name": "qyupe-software",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview",
+    "cf:dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@unhead/vue": "^1.9.9",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8",
+    "vite-ssg": "^0.23.8",
+    "wrangler": "^4.118.0"
+  },
+  "allowScripts": {
+    "sharp@0.33.5": true,
+    "workerd@1.20260730.1": true,
+    "esbuild@0.28.1": true,
+    "esbuild@0.21.5": true
+  }
+}

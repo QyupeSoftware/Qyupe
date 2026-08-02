@@ -1,0 +1,126 @@
+# Qyupe Software Private Limited
+
+> Qyupe Software Private Limited is a subsidiary of EazyStar Systems Inc. (a US-based company) delivering custom software development, bookkeeping, US immigration paralegal services, US company compliance, and PR support to startups and growing businesses under one accountable team.
+
+Contact: Hello@qyupe.com
+
+---
+
+## Home (https://qyupe.com/)
+
+### Every service you need to scale faster, under one roof
+
+Qyupe Software Private Limited delivers custom development, dependable bookkeeping, and US immigration paralegal support to startups and growing businesses — under one accountable team.
+
+Focus areas: Software · Bookkeeping · Compliance · Immigration Paralegal · PR
+
+### What we do — Three services, one dependable team
+
+From shipping product to keeping the books straight to navigating US immigration paperwork — Qyupe handles the operational work so clients can focus on growth.
+
+#### Software Development
+Custom web, mobile, and cloud applications — architecture, build, and post-launch support with AI-assisted delivery for speed and quality.
+
+#### Bookkeeping
+Accurate, up-to-date books for US businesses — reconciliations, reporting, and payroll support so financials are always audit-ready.
+
+#### US Immigration Paralegal Services
+Petition preparation and case-tracking support for US immigration filings, working alongside attorneys to keep every case organized and on schedule.
+
+#### US Company Compliance
+Registered agent support, annual filings, and regulatory upkeep to keep US entities in good standing as they grow.
+
+#### PR
+Press outreach and narrative building to help clients get noticed as they scale.
+
+### Who we are — A subsidiary built on a simple operating system
+
+Qyupe Software Private Limited is a subsidiary of EazyStar Systems Inc., a US-based company. Qyupe runs on a lean, transparent set of workplace policies designed for maximum productivity and minimum management overhead — policies made public (see the Workplace Policies section below).
+
+- 100% Commitment
+- Agile + AI-assisted delivery
+- US-based parent: EazyStar Systems Inc.
+
+### Our clients — Trusted by the EazyStar group of companies
+
+Qyupe builds and supports the platforms behind these products:
+
+- **eazyPetition** — US Immigration petition platform. https://eazypetition.com
+- **trackmypetition** — USCIS Petition tracking platform. https://trackmypetition.com
+- **saasmart** — Simplifying Asset Accumulation and Shielding. https://saasmart.us
+- **eazystar** — EazyStar Systems Inc. https://eazystar.us
+
+### Ready to work together?
+
+Tell us about your project, your books, or your case — we'll follow up within one business day.
+
+Contact: Hello@qyupe.com
+
+---
+
+## Workplace Policies (https://qyupe.com/policies)
+
+### Our USP
+
+To manage the organization with prime focus on productivity and least management overhead, EazyStar Systems Inc and its group companies follow these policies. Qyupe follows policy guides set by its parent, EazyStar Systems Inc.
+
+**01. Learning first**
+Everyone learns first and then works on it, instead of learning while doing — reducing errors that can hurt productivity, timelines, and customer satisfaction. This also prevents low motivation caused by repeated failures.
+
+**02. No negotiation during new hire selections**
+Maintains fair compensation for everyone within the organization and equal opportunities for all.
+
+**03. No retention after resignation**
+So that everyone is motivated to raise their concerns — whether about compensation or work — as soon as they are felt.
+
+**04. Self-appraisal**
+Everyone is compensated according to the performance delivered. Everyone is encouraged to continuously self-review their progress and email their self-appraisal to self-appraisals@eazystar.us with details about improvements achieved since the last appraisal.
+
+Self-appraisal template:
+```
+Date of Last appraisal-
+Current compensation:
+New learnings since last appraisal:
+Other key achievements:
+```
+
+In case the last appraisal is pending for implementation for financial reasons, the next self appraisal can still be submitted. As soon as the company has the budget, the latest approved self-appraisal will go into effect.
+
+**05. No smoking**
+So that everyone feels safe at the workplace.
+
+**06. No notice period**
+So that everyone loves working with us and can move on when their mind changes.
+
+**07. Flexible leaves**
+So that everyone at the company can manage their work-life balance without stress. Any unavailability needs to be communicated in OOO/Break so the team can mitigate the risk arising from it. All medical and exam leaves are paid unless they fall within the first 30 days of joining. Leaves taken for other reasons are paid if within a reasonable limit. Any abuse of this flexibility will be taken seriously and may be the reason for separation, subject to review by a 5-member committee chosen at random for each incidence.
+
+**08. Self-payroll**
+Everyone has to facilitate their payroll by completing the payroll calculation form, marking leaves with the highest integrity, so that payout can be processed by 6 pm on the last working day of the month. Any lapse in integrity may be reason for separation. Everyone is encouraged to mark leaves so that everyone is compensated fairly, without abuse of the open leave policy.
+
+**09. Availability between 2–10 pm**
+
+**10. PPP — Plan, Progress, Problems**
+So that work can be planned, progress can be tracked, and any problems can be highlighted to facilitate resolution in time. PPPs also help reference the data during self-appraisal submission and review.
+
+PPP template:
+```
+Date
+Plan
+Progress
+Problems
+```
+
+Steps to draft the PPP:
+1. Record today's progress with each item on a new line. Highlight any problems faced in the Problems column, including links to GitHub PRs, deployment URLs, LinkedIn posts, YouTube videos, or any other relevant item in Progress/Problems.
+2. Plan the tasks for tomorrow. Create GitHub issues and include the links in the Plan column.
+
+**11. Ownership**
+Qyupe promotes ownership in what we do. Many times, any lapse in assuming ownership has consequences.
+
+**12. Guardrails against abuse**
+The company reserves the right to revoke or suspend one or more of the above policies for a specific employee, contractor, or consultant in case of abuse of the flexibility provided.
+
+---
+
+© 2026 Qyupe Software Private Limited · A subsidiary of EazyStar Systems Inc.

@@ -1,0 +1,33 @@
+# Qyupe Software Private Limited
+
+> Qyupe Software Private Limited is a subsidiary of EazyStar Systems Inc. (a US-based company) delivering custom software development, bookkeeping, US immigration paralegal services, US company compliance, and PR support to startups and growing businesses under one accountable team.
+
+Qyupe runs on a lean, transparent set of workplace policies designed for maximum productivity and minimum management overhead, published publicly for transparency.
+
+## Services
+
+- Software Development: Custom web, mobile, and cloud applications — architecture, build, and post-launch support with AI-assisted delivery.
+- Bookkeeping: Accurate, up-to-date books for US businesses — reconciliations, reporting, and payroll support.
+- US Immigration Paralegal Services: Petition preparation and case-tracking support for US immigration filings, working alongside attorneys.
+- US Company Compliance: Registered agent support, annual filings, and regulatory upkeep for US entities.
+- PR: Press outreach and narrative building.
+
+## Pages
+
+- [Home](https://qyupe.com/): Services overview, about, clients, and contact.
+- [Workplace Policies](https://qyupe.com/policies): The 12 workplace policies EazyStar Systems Inc. and its group companies (including Qyupe) operate by.
+
+## Clients
+
+- [eazyPetition](https://eazypetition.com): US Immigration petition platform.
+- [trackmypetition](https://trackmypetition.com): USCIS petition tracking platform.
+- [saasmart](https://saasmart.us): Simplifying Asset Accumulation and Shielding.
+- [eazystar](https://eazystar.us): EazyStar Systems Inc., the parent company.
+
+## Contact
+
+- Email: Hello@qyupe.com
+
+## Optional
+
+- [Full content](https://qyupe.com/llms-full.txt): Complete page content in a single file, including all Workplace Policies.
