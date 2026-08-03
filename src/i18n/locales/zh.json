@@ -1,11 +1,10 @@
 {
   "meta": {
     "home": {
-      "title": "Qyupe Software Private Limited | 软件开发、簿记与美国移民辅助法律服务",
-      "description": "Qyupe Software Private Limited 由一支值得信赖的团队,为初创企业和成长型企业提供定制软件开发、可靠的簿记服务以及美国移民辅助法律支持。"
+      "description": "Qyupe Software Private Limited 由一支值得信赖的团队,为初创企业和成长型企业提供定制软件开发、可靠的簿记服务以及美国移民辅助法律支持。",
+      "tagline": "软件开发、簿记与美国移民辅助法律服务"
     },
     "policies": {
-      "title": "职场政策 | Qyupe Software Private Limited",
       "description": "EazyStar Systems Inc. 及其集团公司遵循一套精简的职场政策,专注于提高生产力并将管理负担降到最低 —— 这也是 Qyupe Software Private Limited 所遵循的政策。"
     }
   },
@@ -29,11 +28,31 @@
     "title": "三项服务,一支值得信赖的团队",
     "description": "从产品交付、账目管理,到处理美国移民文书工作 —— 我们负责运营层面的工作,让您专注于业务增长。",
     "items": [
-      { "icon": "◆", "title": "软件开发", "text": "定制化 Web、移动端和云端应用 —— 涵盖架构设计、构建以及上线后的支持,并借助 AI 辅助交付以提升速度和质量。" },
-      { "icon": "▤", "title": "簿记服务", "text": "为美国企业提供准确、及时的账目管理 —— 包括对账、报表编制和薪资支持,确保您的财务随时可供审计。" },
-      { "icon": "✎", "title": "美国移民辅助法律服务", "text": "为美国移民申请提供请愿书准备和案件跟踪支持,与律师协作,确保每个案件都井然有序、按时推进。" },
-      { "icon": "✓", "title": "美国公司合规", "text": "提供注册代理支持、年度申报以及监管维护,确保您的美国实体在业务增长的同时保持良好合规状态。" },
-      { "icon": "▲", "title": "公关", "text": "通过媒体推广和品牌故事塑造,帮助您在成长过程中获得关注。" }
+      {
+        "icon": "◆",
+        "title": "软件开发",
+        "text": "定制化 Web、移动端和云端应用 —— 涵盖架构设计、构建以及上线后的支持,并借助 AI 辅助交付以提升速度和质量。"
+      },
+      {
+        "icon": "▤",
+        "title": "簿记服务",
+        "text": "为美国企业提供准确、及时的账目管理 —— 包括对账、报表编制和薪资支持,确保您的财务随时可供审计。"
+      },
+      {
+        "icon": "✎",
+        "title": "美国移民辅助法律服务",
+        "text": "为美国移民申请提供请愿书准备和案件跟踪支持,与律师协作,确保每个案件都井然有序、按时推进。"
+      },
+      {
+        "icon": "✓",
+        "title": "美国公司合规",
+        "text": "提供注册代理支持、年度申报以及监管维护,确保您的美国实体在业务增长的同时保持良好合规状态。"
+      },
+      {
+        "icon": "▲",
+        "title": "公关",
+        "text": "通过媒体推广和品牌故事塑造,帮助您在成长过程中获得关注。"
+      }
     ]
   },
   "about": {
@@ -42,9 +61,18 @@
     "description": "Qyupe Software Private Limited 是美国公司 EazyStar Systems Inc. 的子公司。我们遵循一套精简、透明的职场政策,旨在实现最大化的生产力和最小化的管理负担 —— 我们很自豪能够公开这些政策。",
     "readPolicies": "阅读我们的职场政策 →",
     "stats": [
-      { "value": "100%", "label": "全心投入" },
-      { "value": "敏捷", "label": "+ AI 辅助交付" },
-      { "value": "美国母公司", "label": "EazyStar Systems Inc." }
+      {
+        "value": "100%",
+        "label": "全心投入"
+      },
+      {
+        "value": "敏捷",
+        "label": "+ AI 辅助交付"
+      },
+      {
+        "value": "美国母公司",
+        "label": "EazyStar Systems Inc."
+      }
     ]
   },
   "clients": {
@@ -52,10 +80,30 @@
     "title": "深受 EazyStar 集团公司信赖",
     "description": "我们构建并支持以下产品背后的平台。",
     "items": [
-      { "name": "eazyPetition", "desc": "美国移民请愿平台", "href": "https://eazypetition.com", "label": "eazypetition.com ↗" },
-      { "name": "trackmypetition", "desc": "USCIS 移民申请跟踪平台", "href": "https://trackmypetition.com", "label": "trackmypetition.com ↗" },
-      { "name": "saasmart", "desc": "简化资产积累与保护", "href": "https://saasmart.us", "label": "saasmart.us ↗" },
-      { "name": "eazystar", "desc": "EazyStar Systems Inc.", "href": "https://eazystar.us", "label": "eazystar.us ↗" }
+      {
+        "name": "eazyPetition",
+        "desc": "美国移民请愿平台",
+        "href": "https://eazypetition.com",
+        "label": "eazypetition.com ↗"
+      },
+      {
+        "name": "trackmypetition",
+        "desc": "USCIS 移民申请跟踪平台",
+        "href": "https://trackmypetition.com",
+        "label": "trackmypetition.com ↗"
+      },
+      {
+        "name": "saasmart",
+        "desc": "简化资产积累与保护",
+        "href": "https://saasmart.us",
+        "label": "saasmart.us ↗"
+      },
+      {
+        "name": "eazystar",
+        "desc": "EazyStar Systems Inc.",
+        "href": "https://eazystar.us",
+        "label": "eazystar.us ↗"
+      }
     ]
   },
   "contact": {
@@ -137,6 +185,16 @@
         "num": "12",
         "title": "防止滥用的保障机制",
         "description": "如果特定员工、承包商或顾问滥用公司提供的弹性政策,公司保留撤销或暂停上述一项或多项政策的权利。"
+      },
+      {
+        "num": "13",
+        "title": "薪酬公开",
+        "description": "没有人的薪水是保密的 —— 公司里每个人的薪酬对所有人公开可见。公平来自透明,而非保密:当每个人都能看到别人的收入时,不公平就无处遁形。我们相信,公开透明远比打着\"保密\"旗号的控制更能激励员工。"
+      },
+      {
+        "num": "14",
+        "title": "不挖角",
+        "description": "我们不会去接触或聘用其他公司的员工——尤其是竞争对手的员工——因为我们不会为了组建自己的团队而搅乱别人的团队。我们更倾向于录用那些职业生涯已经因裁员而受到影响的候选人:我们\"先学习,后上手\"的方式意味着几乎任何技能或经验上的差距都可以弥补,唯一无法弥补的,是严重的诚信问题。"
       }
     ]
   }

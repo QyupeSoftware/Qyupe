@@ -17,7 +17,7 @@ const { t, tm } = useI18n()
 const route = useRoute()
 const locale = computed(() => route.meta.locale || DEFAULT_LOCALE)
 
-const title = computed(() => t('meta.home.title'))
+const title = computed(() => `${siteName} | ${t('meta.home.tagline')}`)
 const description = computed(() => t('meta.home.description'))
 const url = computed(() => siteUrl + homePath(locale.value))
 const ogImage = siteUrl + logoQyupe

@@ -1,11 +1,10 @@
 {
   "meta": {
     "home": {
-      "title": "Qyupe Software Private Limited | Desarrollo de software, contabilidad y servicios paralegales de inmigración en EE. UU.",
-      "description": "Qyupe Software Private Limited ofrece desarrollo a medida, contabilidad confiable y apoyo paralegal de inmigración en EE. UU. para startups y empresas en crecimiento, todo con un equipo responsable."
+      "description": "Qyupe Software Private Limited ofrece desarrollo a medida, contabilidad confiable y apoyo paralegal de inmigración en EE. UU. para startups y empresas en crecimiento, todo con un equipo responsable.",
+      "tagline": "Desarrollo de software, contabilidad y servicios paralegales de inmigración en EE. UU."
     },
     "policies": {
-      "title": "Políticas laborales | Qyupe Software Private Limited",
       "description": "EazyStar Systems Inc. y sus empresas del grupo operan con un conjunto sencillo de políticas laborales centradas en la productividad y la mínima carga administrativa, las mismas que sigue Qyupe Software Private Limited."
     }
   },
@@ -29,11 +28,31 @@
     "title": "Tres servicios, un equipo confiable",
     "description": "Desde lanzar producto hasta mantener las cuentas en orden y gestionar los trámites de inmigración en EE. UU., nos encargamos del trabajo operativo para que puedas enfocarte en crecer.",
     "items": [
-      { "icon": "◆", "title": "Desarrollo de software", "text": "Aplicaciones web, móviles y en la nube a medida: arquitectura, desarrollo y soporte posterior al lanzamiento, con entrega asistida por IA para mayor velocidad y calidad." },
-      { "icon": "▤", "title": "Contabilidad", "text": "Libros contables precisos y actualizados para empresas en EE. UU.: conciliaciones, reportes y soporte de nómina para que tus finanzas estén siempre listas para auditoría." },
-      { "icon": "✎", "title": "Servicios paralegales de inmigración en EE. UU.", "text": "Preparación de peticiones y seguimiento de casos para trámites de inmigración en EE. UU., trabajando junto a abogados para mantener cada caso organizado y a tiempo." },
-      { "icon": "✓", "title": "Cumplimiento normativo de empresas en EE. UU.", "text": "Soporte de agente registrado, presentaciones anuales y mantenimiento regulatorio para que tu entidad en EE. UU. siga en regla a medida que crece." },
-      { "icon": "▲", "title": "RP", "text": "Difusión con medios y construcción de narrativa para ayudarte a destacar mientras creces." }
+      {
+        "icon": "◆",
+        "title": "Desarrollo de software",
+        "text": "Aplicaciones web, móviles y en la nube a medida: arquitectura, desarrollo y soporte posterior al lanzamiento, con entrega asistida por IA para mayor velocidad y calidad."
+      },
+      {
+        "icon": "▤",
+        "title": "Contabilidad",
+        "text": "Libros contables precisos y actualizados para empresas en EE. UU.: conciliaciones, reportes y soporte de nómina para que tus finanzas estén siempre listas para auditoría."
+      },
+      {
+        "icon": "✎",
+        "title": "Servicios paralegales de inmigración en EE. UU.",
+        "text": "Preparación de peticiones y seguimiento de casos para trámites de inmigración en EE. UU., trabajando junto a abogados para mantener cada caso organizado y a tiempo."
+      },
+      {
+        "icon": "✓",
+        "title": "Cumplimiento normativo de empresas en EE. UU.",
+        "text": "Soporte de agente registrado, presentaciones anuales y mantenimiento regulatorio para que tu entidad en EE. UU. siga en regla a medida que crece."
+      },
+      {
+        "icon": "▲",
+        "title": "RP",
+        "text": "Difusión con medios y construcción de narrativa para ayudarte a destacar mientras creces."
+      }
     ]
   },
   "about": {
@@ -42,9 +61,18 @@
     "description": "Qyupe Software Private Limited es una subsidiaria de EazyStar Systems Inc., una empresa con sede en EE. UU. Operamos con un conjunto de políticas laborales sencillas y transparentes, diseñadas para maximizar la productividad y minimizar la carga administrativa: políticas que nos enorgullece hacer públicas.",
     "readPolicies": "Lee nuestras Políticas laborales →",
     "stats": [
-      { "value": "100%", "label": "Compromiso" },
-      { "value": "Ágil", "label": "+ entrega asistida por IA" },
-      { "value": "Matriz en EE. UU.", "label": "EazyStar Systems Inc." }
+      {
+        "value": "100%",
+        "label": "Compromiso"
+      },
+      {
+        "value": "Ágil",
+        "label": "+ entrega asistida por IA"
+      },
+      {
+        "value": "Matriz en EE. UU.",
+        "label": "EazyStar Systems Inc."
+      }
     ]
   },
   "clients": {
@@ -52,10 +80,30 @@
     "title": "La confianza del grupo EazyStar",
     "description": "Creamos y damos soporte a las plataformas detrás de estos productos.",
     "items": [
-      { "name": "eazyPetition", "desc": "Plataforma de peticiones de inmigración en EE. UU.", "href": "https://eazypetition.com", "label": "eazypetition.com ↗" },
-      { "name": "trackmypetition", "desc": "Plataforma de seguimiento de peticiones ante USCIS", "href": "https://trackmypetition.com", "label": "trackmypetition.com ↗" },
-      { "name": "saasmart", "desc": "Simplificando la acumulación y protección de activos", "href": "https://saasmart.us", "label": "saasmart.us ↗" },
-      { "name": "eazystar", "desc": "EazyStar Systems Inc.", "href": "https://eazystar.us", "label": "eazystar.us ↗" }
+      {
+        "name": "eazyPetition",
+        "desc": "Plataforma de peticiones de inmigración en EE. UU.",
+        "href": "https://eazypetition.com",
+        "label": "eazypetition.com ↗"
+      },
+      {
+        "name": "trackmypetition",
+        "desc": "Plataforma de seguimiento de peticiones ante USCIS",
+        "href": "https://trackmypetition.com",
+        "label": "trackmypetition.com ↗"
+      },
+      {
+        "name": "saasmart",
+        "desc": "Simplificando la acumulación y protección de activos",
+        "href": "https://saasmart.us",
+        "label": "saasmart.us ↗"
+      },
+      {
+        "name": "eazystar",
+        "desc": "EazyStar Systems Inc.",
+        "href": "https://eazystar.us",
+        "label": "eazystar.us ↗"
+      }
     ]
   },
   "contact": {
@@ -137,6 +185,16 @@
         "num": "12",
         "title": "Salvaguardas contra el abuso",
         "description": "La empresa se reserva el derecho de revocar o suspender una o más de las políticas anteriores para un empleado, contratista o consultor específico en caso de abuso de la flexibilidad otorgada."
+      },
+      {
+        "num": "13",
+        "title": "Salario abierto",
+        "description": "El salario de nadie es confidencial: todos los sueldos de la empresa son visibles para todos. La equidad nace de la transparencia, no del secretismo: cuando todos pueden ver lo que gana cada quien, las inequidades no tienen dónde esconderse. Confiamos en que la apertura motiva mucho más que el control disfrazado de \"confidencialidad\"."
+      },
+      {
+        "num": "14",
+        "title": "Sin caza de talento",
+        "description": "No nos acercamos a empleados de otras empresas ni los contratamos para alejarlos de ellas -especialmente no de la competencia-, porque no vamos a desestabilizar otro equipo para construir el nuestro. Preferimos candidatos cuya carrera ya se haya visto afectada por despidos en otro lugar: nuestro enfoque de \"aprender primero\" significa que casi cualquier brecha de habilidad o experiencia puede cerrarse. Lo único que no puede resolver es un problema grave de integridad."
       }
     ]
   }

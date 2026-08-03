@@ -13,7 +13,7 @@ const { t, tm } = useI18n()
 const route = useRoute()
 const locale = computed(() => route.meta.locale || DEFAULT_LOCALE)
 
-const title = computed(() => t('meta.policies.title'))
+const title = computed(() => `${t('policiesPage.title')} | ${siteName}`)
 const description = computed(() => t('meta.policies.description'))
 const url = computed(() => siteUrl + policiesPath(locale.value))
 const ogImage = siteUrl + logoQyupe

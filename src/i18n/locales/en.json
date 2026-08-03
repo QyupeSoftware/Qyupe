@@ -1,11 +1,10 @@
 {
   "meta": {
     "home": {
-      "title": "Qyupe Software Private Limited | Software, Bookkeeping & US Immigration Paralegal Services",
-      "description": "Qyupe Software Private Limited delivers custom development, dependable bookkeeping, and US immigration paralegal support to startups and growing businesses — under one accountable team."
+      "description": "Qyupe Software Private Limited delivers custom development, dependable bookkeeping, and US immigration paralegal support to startups and growing businesses — under one accountable team.",
+      "tagline": "Software, Bookkeeping & US Immigration Paralegal Services"
     },
     "policies": {
-      "title": "Workplace Policies | Qyupe Software Private Limited",
       "description": "EazyStar Systems Inc. and its group companies run on a lean set of workplace policies focused on productivity and minimal management overhead — the same policies Qyupe Software Private Limited follows."
     }
   },
@@ -29,11 +28,31 @@
     "title": "Three services, one dependable team",
     "description": "From shipping product to keeping the books straight to navigating US immigration paperwork — we handle the operational work so you can focus on growth.",
     "items": [
-      { "icon": "◆", "title": "Software Development", "text": "Custom web, mobile, and cloud applications — architecture, build, and post-launch support with AI-assisted delivery for speed and quality." },
-      { "icon": "▤", "title": "Bookkeeping", "text": "Accurate, up-to-date books for US businesses — reconciliations, reporting, and payroll support so your financials are always audit-ready." },
-      { "icon": "✎", "title": "US Immigration Paralegal Services", "text": "Petition preparation and case-tracking support for US immigration filings, working alongside attorneys to keep every case organized and on schedule." },
-      { "icon": "✓", "title": "US Company Compliance", "text": "Registered agent support, annual filings, and regulatory upkeep to keep your US entity in good standing as it grows." },
-      { "icon": "▲", "title": "PR", "text": "Press outreach and narrative building to help you get noticed as you scale." }
+      {
+        "icon": "◆",
+        "title": "Software Development",
+        "text": "Custom web, mobile, and cloud applications — architecture, build, and post-launch support with AI-assisted delivery for speed and quality."
+      },
+      {
+        "icon": "▤",
+        "title": "Bookkeeping",
+        "text": "Accurate, up-to-date books for US businesses — reconciliations, reporting, and payroll support so your financials are always audit-ready."
+      },
+      {
+        "icon": "✎",
+        "title": "US Immigration Paralegal Services",
+        "text": "Petition preparation and case-tracking support for US immigration filings, working alongside attorneys to keep every case organized and on schedule."
+      },
+      {
+        "icon": "✓",
+        "title": "US Company Compliance",
+        "text": "Registered agent support, annual filings, and regulatory upkeep to keep your US entity in good standing as it grows."
+      },
+      {
+        "icon": "▲",
+        "title": "PR",
+        "text": "Press outreach and narrative building to help you get noticed as you scale."
+      }
     ]
   },
   "about": {
@@ -42,9 +61,18 @@
     "description": "Qyupe Software Private Limited is a subsidiary of EazyStar Systems Inc., a US-based company. We run on a lean, transparent set of workplace policies designed for maximum productivity and minimum management overhead — policies we're proud to make public.",
     "readPolicies": "Read our Workplace Policies →",
     "stats": [
-      { "value": "100%", "label": "Commitment" },
-      { "value": "Agile", "label": "+ AI-assisted delivery" },
-      { "value": "US-based parent", "label": "EazyStar Systems Inc." }
+      {
+        "value": "100%",
+        "label": "Commitment"
+      },
+      {
+        "value": "Agile",
+        "label": "+ AI-assisted delivery"
+      },
+      {
+        "value": "US-based parent",
+        "label": "EazyStar Systems Inc."
+      }
     ]
   },
   "clients": {
@@ -52,10 +80,30 @@
     "title": "Trusted by the EazyStar group of companies",
     "description": "We build and support the platforms behind these products.",
     "items": [
-      { "name": "eazyPetition", "desc": "US Immigration petition platform", "href": "https://eazypetition.com", "label": "eazypetition.com ↗" },
-      { "name": "trackmypetition", "desc": "USCIS Petition tracking platform", "href": "https://trackmypetition.com", "label": "trackmypetition.com ↗" },
-      { "name": "saasmart", "desc": "Simplifying Asset Accumulation and Shielding", "href": "https://saasmart.us", "label": "saasmart.us ↗" },
-      { "name": "eazystar", "desc": "EazyStar Systems Inc.", "href": "https://eazystar.us", "label": "eazystar.us ↗" }
+      {
+        "name": "eazyPetition",
+        "desc": "US Immigration petition platform",
+        "href": "https://eazypetition.com",
+        "label": "eazypetition.com ↗"
+      },
+      {
+        "name": "trackmypetition",
+        "desc": "USCIS Petition tracking platform",
+        "href": "https://trackmypetition.com",
+        "label": "trackmypetition.com ↗"
+      },
+      {
+        "name": "saasmart",
+        "desc": "Simplifying Asset Accumulation and Shielding",
+        "href": "https://saasmart.us",
+        "label": "saasmart.us ↗"
+      },
+      {
+        "name": "eazystar",
+        "desc": "EazyStar Systems Inc.",
+        "href": "https://eazystar.us",
+        "label": "eazystar.us ↗"
+      }
     ]
   },
   "contact": {
@@ -137,6 +185,16 @@
         "num": "12",
         "title": "Guardrails against abuse",
         "description": "The company reserves the right to revoke or suspend one or more of the above policies for a specific employee, contractor, or consultant in case of abuse of the flexibility provided."
+      },
+      {
+        "num": "13",
+        "title": "Open pay",
+        "description": "No one's paycheck is confidential — every salary in the company is visible to everyone. Fairness comes from transparency, not secrecy: when everyone can see what everyone earns, inequities have nowhere to hide. We trust openness to motivate people far more than control disguised as ‘confidentiality’ ever could."
+      },
+      {
+        "num": "14",
+        "title": "No poaching",
+        "description": "We do not approach or hire employees away from other companies — especially not from competitors — because we won't disrupt another team to build our own. We prefer candidates whose careers have already been disrupted by layoffs elsewhere: our learning-first approach means almost any skill or experience gap can be closed. The only thing it can't fix is a serious integrity issue."
       }
     ]
   }
