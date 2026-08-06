@@ -195,6 +195,11 @@
         "num": "14",
         "title": "No poaching",
         "description": "We do not approach or hire employees away from other companies — especially not from competitors — because we won't disrupt another team to build our own. We prefer candidates whose careers have already been disrupted by layoffs elsewhere: our learning-first approach means almost any skill or experience gap can be closed. The only thing it can't fix is a serious integrity issue."
+      },
+      {
+        "num": "15",
+        "title": "10-minute onboarding",
+        "description": "Once a candidate decides to join Qyupe, the offer goes out for an online signature along with an Aadhar and PAN upload. The moment the offer letter is signed, they're issued email account credentials. Logging into that email unlocks the WhatsApp group and Zoom for collaboration across our group companies — and, where the role calls for it, GitHub and Cloudflare access follows too. From \"yes\" to fully wired in: about ten minutes."
       }
     ]
   }

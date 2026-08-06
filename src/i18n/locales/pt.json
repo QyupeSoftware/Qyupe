@@ -195,6 +195,11 @@
         "num": "14",
         "title": "Sem aliciamento",
         "description": "Não abordamos nem contratamos funcionários de outras empresas para tirá-los de lá — especialmente de concorrentes — porque não vamos desestabilizar outra equipe para construir a nossa. Preferimos candidatos cuja carreira já tenha sido afetada por demissões em outro lugar: nossa abordagem de \"aprender primeiro\" significa que quase qualquer lacuna de habilidade ou experiência pode ser superada. A única coisa que ela não resolve é um problema sério de integridade."
+      },
+      {
+        "num": "15",
+        "title": "Onboarding em 10 minutos",
+        "description": "Assim que um candidato decide entrar na Qyupe, a proposta é enviada para assinatura on-line, junto com o envio do Aadhar e do PAN. No momento em que a carta de oferta é assinada, ele recebe as credenciais da conta de e-mail. Ao fazer login nesse e-mail, ele desbloqueia o acesso ao grupo do WhatsApp e ao Zoom para colaborar entre as empresas do grupo — e, quando a função exige, o acesso ao GitHub e ao Cloudflare também é liberado. Do \"sim\" à conexão completa: cerca de dez minutos."
       }
     ]
   }

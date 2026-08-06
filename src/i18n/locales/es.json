@@ -195,6 +195,11 @@
         "num": "14",
         "title": "Sin caza de talento",
         "description": "No nos acercamos a empleados de otras empresas ni los contratamos para alejarlos de ellas -especialmente no de la competencia-, porque no vamos a desestabilizar otro equipo para construir el nuestro. Preferimos candidatos cuya carrera ya se haya visto afectada por despidos en otro lugar: nuestro enfoque de \"aprender primero\" significa que casi cualquier brecha de habilidad o experiencia puede cerrarse. Lo único que no puede resolver es un problema grave de integridad."
+      },
+      {
+        "num": "15",
+        "title": "Incorporación en 10 minutos",
+        "description": "En cuanto un candidato decide unirse a Qyupe, le enviamos la oferta para firma electrónica junto con la carga de su Aadhar y PAN. En el momento en que se firma la carta de oferta, recibe las credenciales de su cuenta de correo. Al iniciar sesión en ese correo, se desbloquea el acceso al grupo de WhatsApp y a Zoom para colaborar entre las empresas del grupo -y, si el puesto lo requiere, también el acceso a GitHub y Cloudflare. Del \"sí\" a estar completamente conectado: unos diez minutos."
       }
     ]
   }
