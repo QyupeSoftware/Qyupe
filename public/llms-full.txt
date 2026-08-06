@@ -67,13 +67,16 @@ To manage the organization with prime focus on productivity and least management
 **01. Learning first**
 Everyone learns first and then works on it, instead of learning while doing - reducing errors that can hurt productivity, timelines, and customer satisfaction. This also prevents low motivation caused by repeated failures.
 
-**02. No negotiation during new hire selections**
+**02. 10-minute onboarding**
+Once a candidate decides to join Qyupe, the offer goes out for an online signature along with an Aadhar and PAN upload. The moment the offer letter is signed, they're issued email account credentials. Logging into that email unlocks the WhatsApp group and Zoom for collaboration across our group companies - and, where the role calls for it, GitHub and Cloudflare access follows too. From "yes" to fully wired in: about ten minutes.
+
+**03. No negotiation during new hire selections**
 Maintains fair compensation for everyone within the organization and equal opportunities for all.
 
-**03. No retention after resignation**
+**04. No retention after resignation**
 So that everyone is motivated to raise their concerns - whether about compensation or work - as soon as they are felt.
 
-**04. Self-appraisal**
+**05. Self-appraisal**
 Everyone is compensated according to the performance delivered. Everyone is encouraged to continuously self-review their progress and email their self-appraisal to self-appraisals@eazystar.us with details about improvements achieved since the last appraisal.
 
 Self-appraisal template:
@@ -86,21 +89,21 @@ Other key achievements:
 
 In case the last appraisal is pending for implementation for financial reasons, the next self appraisal can still be submitted. As soon as the company has the budget, the latest approved self-appraisal will go into effect.
 
-**05. No smoking**
+**06. No smoking**
 So that everyone feels safe at the workplace.
 
-**06. No notice period**
+**07. No notice period**
 So that everyone loves working with us and can move on when their mind changes.
 
-**07. Flexible leaves**
+**08. Flexible leaves**
 So that everyone at the company can manage their work-life balance without stress. Any unavailability needs to be communicated in OOO/Break so the team can mitigate the risk arising from it. All medical and exam leaves are paid unless they fall within the first 30 days of joining. Everyone also gets paid leave to celebrate their own birthday, and the birthdays of their spouse, children, and parents. Leaves taken for other reasons are paid if within a reasonable limit. Any abuse of this flexibility will be taken seriously and may be the reason for separation, subject to review by a 5-member committee chosen at random for each incidence.
 
-**08. Self-payroll**
+**09. Self-payroll**
 Everyone has to facilitate their payroll by completing the payroll calculation form, marking leaves with the highest integrity, so that payout can be processed by 6 pm on the last working day of the month. Any lapse in integrity may be reason for separation. Everyone is encouraged to mark leaves so that everyone is compensated fairly, without abuse of the open leave policy.
 
-**09. Availability between 2-10 pm**
+**10. Availability between 2-10 pm**
 
-**10. PPP - Plan, Progress, Problems**
+**11. PPP - Plan, Progress, Problems**
 So that work can be planned, progress can be tracked, and any problems can be highlighted to facilitate resolution in time. PPPs also help reference the data during self-appraisal submission and review.
 
 PPP template:
@@ -115,20 +118,17 @@ Steps to draft the PPP:
 1. Record today's progress with each item on a new line. Highlight any problems faced in the Problems column, including links to GitHub PRs, deployment URLs, LinkedIn posts, YouTube videos, or any other relevant item in Progress/Problems.
 2. Plan the tasks for tomorrow. Create GitHub issues and include the links in the Plan column.
 
-**11. Ownership**
+**12. Ownership**
 Qyupe promotes ownership in what we do. Many times, any lapse in assuming ownership has consequences.
 
-**12. Guardrails against abuse**
+**13. Guardrails against abuse**
 The company reserves the right to revoke or suspend one or more of the above policies for a specific employee, contractor, or consultant in case of abuse of the flexibility provided.
 
-**13. Open pay**
+**14. Open pay**
 No one's paycheck is confidential - every salary in the company is visible to everyone. Fairness comes from transparency, not secrecy: when everyone can see what everyone earns, inequities have nowhere to hide. We trust openness to motivate people far more than control disguised as 'confidentiality' ever could.
 
-**14. No poaching**
+**15. No poaching**
 We do not approach or hire employees away from other companies - especially not from competitors - because we won't disrupt another team to build our own. We prefer candidates whose careers have already been disrupted by layoffs elsewhere: our learning-first approach means almost any skill or experience gap can be closed. The only thing it can't fix is a serious integrity issue.
-
-**15. 10-minute onboarding**
-Once a candidate decides to join Qyupe, the offer goes out for an online signature along with an Aadhar and PAN upload. The moment the offer letter is signed, they're issued email account credentials. Logging into that email unlocks the WhatsApp group and Zoom for collaboration across our group companies - and, where the role calls for it, GitHub and Cloudflare access follows too. From "yes" to fully wired in: about ten minutes.
 
 ---
 

@@ -126,47 +126,52 @@
       },
       {
         "num": "02",
+        "title": "Onboarding em 10 minutos",
+        "description": "Assim que um candidato decide entrar na Qyupe, a proposta é enviada para assinatura on-line, junto com o envio do Aadhar e do PAN. No momento em que a carta de oferta é assinada, ele recebe as credenciais da conta de e-mail. Ao fazer login nesse e-mail, ele desbloqueia o acesso ao grupo do WhatsApp e ao Zoom para colaborar entre as empresas do grupo — e, quando a função exige, o acesso ao GitHub e ao Cloudflare também é liberado. Do \"sim\" à conexão completa: cerca de dez minutos."
+      },
+      {
+        "num": "03",
         "title": "Sem negociação nas seleções de novas contratações",
         "description": "Mantém uma remuneração justa para todos dentro da organização e oportunidades iguais para todos."
       },
       {
-        "num": "03",
+        "num": "04",
         "title": "Sem retenção após pedido de demissão",
         "description": "Para que todos se sintam motivados a levantar suas preocupações — sejam sobre remuneração ou trabalho — assim que forem percebidas."
       },
       {
-        "num": "04",
+        "num": "05",
         "title": "Autoavaliação",
         "preHtml": "Todos são remunerados de acordo com o desempenho entregue. Todos são incentivados a revisar continuamente seu próprio progresso e enviar sua autoavaliação para <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a>, com detalhes das melhorias alcançadas desde a última avaliação.",
         "code": "Data da última avaliação-\nRemuneração atual:\nNovos aprendizados desde a última avaliação:\nOutras conquistas importantes:",
         "post": "Caso a última avaliação esteja pendente de implementação por motivos financeiros, a próxima autoavaliação ainda pode ser enviada. Assim que a empresa tiver orçamento, a última autoavaliação aprovada entrará em vigor."
       },
       {
-        "num": "05",
+        "num": "06",
         "title": "Proibido fumar",
         "description": "Para que todos se sintam seguros no ambiente de trabalho."
       },
       {
-        "num": "06",
+        "num": "07",
         "title": "Sem período de aviso prévio",
         "description": "Para que todos adorem trabalhar conosco e possam seguir em frente quando mudarem de ideia."
       },
       {
-        "num": "07",
+        "num": "08",
         "title": "Licenças flexíveis",
         "description": "Para que todos na empresa possam equilibrar vida pessoal e profissional sem estresse. Qualquer indisponibilidade precisa ser comunicada em OOO/Break para que nossa equipe possa mitigar o risco decorrente. Todas as licenças médicas e de provas são remuneradas, exceto se ocorrerem nos primeiros 30 dias após a contratação. Todos também recebem folga remunerada para comemorar seu próprio aniversário, além dos aniversários do cônjuge, dos filhos e dos pais. Licenças tiradas por outros motivos são remuneradas dentro de um limite razoável. Qualquer abuso dessa flexibilidade será levado a sério e pode ser motivo de desligamento, sujeito a análise por um comitê de 5 membros escolhido aleatoriamente para cada caso."
       },
       {
-        "num": "08",
+        "num": "09",
         "title": "Folha de pagamento autogerenciada",
         "description": "Todos devem facilitar sua folha de pagamento preenchendo o formulário de cálculo de folha, marcando as licenças com a máxima integridade, para que o pagamento possa ser processado até as 18h do último dia útil do mês. Qualquer falha de integridade pode ser motivo de desligamento. Todos são incentivados a marcar suas licenças para que a remuneração seja justa para todos, sem abuso da política de licenças aberta."
       },
       {
-        "num": "09",
+        "num": "10",
         "title": "Disponibilidade das 14h às 22h"
       },
       {
-        "num": "10",
+        "num": "11",
         "title": "PPP — Plano, Progresso, Problemas",
         "pre": "Para que o trabalho possa ser planejado, o progresso acompanhado, e qualquer problema destacado para facilitar sua resolução a tempo. Os PPPs também ajudam a referenciar os dados durante o envio e a revisão da autoavaliação.",
         "code": "Data\nPlano\nProgresso\nProblemas",
@@ -177,29 +182,24 @@
         ]
       },
       {
-        "num": "11",
+        "num": "12",
         "title": "Senso de propriedade",
         "description": "A Qyupe promove o senso de propriedade em tudo o que fazemos. Muitas vezes, qualquer falha em assumir essa responsabilidade tem consequências."
       },
       {
-        "num": "12",
+        "num": "13",
         "title": "Salvaguardas contra abuso",
         "description": "A empresa se reserva o direito de revogar ou suspender uma ou mais das políticas acima para um funcionário, contratado ou consultor específico em caso de abuso da flexibilidade concedida."
       },
       {
-        "num": "13",
+        "num": "14",
         "title": "Remuneração aberta",
         "description": "O salário de ninguém é confidencial — toda remuneração na empresa é visível para todos. A justiça vem da transparência, não do sigilo: quando todos podem ver o que cada um ganha, as desigualdades não têm onde se esconder. Acreditamos que a transparência motiva muito mais do que o controle disfarçado de \"confidencialidade\"."
       },
       {
-        "num": "14",
+        "num": "15",
         "title": "Sem aliciamento",
         "description": "Não abordamos nem contratamos funcionários de outras empresas para tirá-los de lá — especialmente de concorrentes — porque não vamos desestabilizar outra equipe para construir a nossa. Preferimos candidatos cuja carreira já tenha sido afetada por demissões em outro lugar: nossa abordagem de \"aprender primeiro\" significa que quase qualquer lacuna de habilidade ou experiência pode ser superada. A única coisa que ela não resolve é um problema sério de integridade."
-      },
-      {
-        "num": "15",
-        "title": "Onboarding em 10 minutos",
-        "description": "Assim que um candidato decide entrar na Qyupe, a proposta é enviada para assinatura on-line, junto com o envio do Aadhar e do PAN. No momento em que a carta de oferta é assinada, ele recebe as credenciais da conta de e-mail. Ao fazer login nesse e-mail, ele desbloqueia o acesso ao grupo do WhatsApp e ao Zoom para colaborar entre as empresas do grupo — e, quando a função exige, o acesso ao GitHub e ao Cloudflare também é liberado. Do \"sim\" à conexão completa: cerca de dez minutos."
       }
     ]
   }

@@ -126,47 +126,52 @@
       },
       {
         "num": "02",
+        "title": "10-minute onboarding",
+        "description": "Once a candidate decides to join Qyupe, the offer goes out for an online signature along with an Aadhar and PAN upload. The moment the offer letter is signed, they're issued email account credentials. Logging into that email unlocks the WhatsApp group and Zoom for collaboration across our group companies — and, where the role calls for it, GitHub and Cloudflare access follows too. From \"yes\" to fully wired in: about ten minutes."
+      },
+      {
+        "num": "03",
         "title": "No negotiation during new hire selections",
         "description": "Maintains fair compensation for everyone within the organization and equal opportunities for all."
       },
       {
-        "num": "03",
+        "num": "04",
         "title": "No retention after resignation",
         "description": "So that everyone is motivated to raise their concerns — whether about compensation or work — as soon as they are felt."
       },
       {
-        "num": "04",
+        "num": "05",
         "title": "Self-appraisal",
         "preHtml": "Everyone is compensated according to the performance delivered. Everyone is encouraged to continuously self-review their progress and email their self-appraisal to <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a> with details about improvements achieved since the last appraisal.",
         "code": "Date of Last appraisal-\nCurrent compensation:\nNew learnings since last appraisal:\nOther key achievements:",
         "post": "In case the last appraisal is pending for implementation for financial reasons, the next self appraisal can still be submitted. As soon as the company has the budget, the latest approved self-appraisal will go into effect."
       },
       {
-        "num": "05",
+        "num": "06",
         "title": "No smoking",
         "description": "So that everyone feels safe at the workplace."
       },
       {
-        "num": "06",
+        "num": "07",
         "title": "No notice period",
         "description": "So that everyone loves working with us and can move on when their mind changes."
       },
       {
-        "num": "07",
+        "num": "08",
         "title": "Flexible leaves",
         "description": "So that everyone at our company can manage their work-life balance without stress. Any unavailability needs to be communicated in OOO/Break so our team can mitigate the risk arising from it. All medical and exam leaves are paid unless they fall within the first 30 days of joining. Everyone also gets paid leave to celebrate their own birthday, and the birthdays of their spouse, children, and parents. Leaves taken for other reasons are paid if within a reasonable limit. Any abuse of this flexibility will be taken seriously and may be the reason for separation, subject to review by a 5-member committee chosen at random for each incidence."
       },
       {
-        "num": "08",
+        "num": "09",
         "title": "Self-payroll",
         "description": "Everyone has to facilitate their payroll by completing the payroll calculation form, marking leaves with the highest integrity, so that payout can be processed by 6 pm on the last working day of the month. Any lapse in integrity may be reason for separation. Everyone is encouraged to mark leaves so that everyone is compensated fairly, without abuse of the open leave policy."
       },
       {
-        "num": "09",
+        "num": "10",
         "title": "Availability between 2–10 pm"
       },
       {
-        "num": "10",
+        "num": "11",
         "title": "PPP — Plan, Progress, Problems",
         "pre": "So that work can be planned, progress can be tracked, and any problems can be highlighted to facilitate resolution in time. PPPs also help reference the data during self-appraisal submission and review.",
         "code": "Date\nPlan\nProgress\nProblems",
@@ -177,29 +182,24 @@
         ]
       },
       {
-        "num": "11",
+        "num": "12",
         "title": "Ownership",
         "description": "Qyupe promotes ownership in what we do. Many times, any lapse in assuming ownership has consequences."
       },
       {
-        "num": "12",
+        "num": "13",
         "title": "Guardrails against abuse",
         "description": "The company reserves the right to revoke or suspend one or more of the above policies for a specific employee, contractor, or consultant in case of abuse of the flexibility provided."
       },
       {
-        "num": "13",
+        "num": "14",
         "title": "Open pay",
         "description": "No one's paycheck is confidential — every salary in the company is visible to everyone. Fairness comes from transparency, not secrecy: when everyone can see what everyone earns, inequities have nowhere to hide. We trust openness to motivate people far more than control disguised as ‘confidentiality’ ever could."
       },
       {
-        "num": "14",
+        "num": "15",
         "title": "No poaching",
         "description": "We do not approach or hire employees away from other companies — especially not from competitors — because we won't disrupt another team to build our own. We prefer candidates whose careers have already been disrupted by layoffs elsewhere: our learning-first approach means almost any skill or experience gap can be closed. The only thing it can't fix is a serious integrity issue."
-      },
-      {
-        "num": "15",
-        "title": "10-minute onboarding",
-        "description": "Once a candidate decides to join Qyupe, the offer goes out for an online signature along with an Aadhar and PAN upload. The moment the offer letter is signed, they're issued email account credentials. Logging into that email unlocks the WhatsApp group and Zoom for collaboration across our group companies — and, where the role calls for it, GitHub and Cloudflare access follows too. From \"yes\" to fully wired in: about ten minutes."
       }
     ]
   }

@@ -126,47 +126,52 @@
       },
       {
         "num": "02",
+        "title": "Intégration en 10 minutes",
+        "description": "Dès qu'un candidat décide de rejoindre Qyupe, l'offre part pour signature en ligne, accompagnée du téléversement de sa carte Aadhar et de son PAN. Dès que la lettre d'offre est signée, il reçoit ses identifiants de messagerie. En se connectant à cette messagerie, il débloque l'accès au groupe WhatsApp et à Zoom pour collaborer avec les entreprises du groupe — et, si le poste l'exige, l'accès à GitHub et Cloudflare suit également. Du « oui » à une intégration complète : environ dix minutes."
+      },
+      {
+        "num": "03",
         "title": "Aucune négociation lors du recrutement",
         "description": "Maintient une rémunération équitable pour tous au sein de l'organisation et des opportunités égales pour tous."
       },
       {
-        "num": "03",
+        "num": "04",
         "title": "Aucune rétention après démission",
         "description": "Afin que chacun soit motivé à exprimer ses préoccupations — qu'il s'agisse de rémunération ou de travail — dès qu'elles se manifestent."
       },
       {
-        "num": "04",
+        "num": "05",
         "title": "Auto-évaluation",
         "preHtml": "Chacun est rémunéré selon la performance fournie. Chacun est encouragé à revoir en continu sa progression et à envoyer son auto-évaluation à <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a> en détaillant les progrès réalisés depuis la dernière évaluation.",
         "code": "Date de la dernière évaluation-\nRémunération actuelle :\nNouveaux apprentissages depuis la dernière évaluation :\nAutres réalisations clés :",
         "post": "Si la dernière évaluation est en attente de mise en œuvre pour des raisons financières, l'auto-évaluation suivante peut tout de même être soumise. Dès que l'entreprise disposera du budget nécessaire, la dernière auto-évaluation approuvée entrera en vigueur."
       },
       {
-        "num": "05",
+        "num": "06",
         "title": "Interdiction de fumer",
         "description": "Afin que chacun se sente en sécurité sur le lieu de travail."
       },
       {
-        "num": "06",
+        "num": "07",
         "title": "Aucun préavis",
         "description": "Afin que chacun aime travailler avec nous et puisse partir librement lorsqu'il change d'avis."
       },
       {
-        "num": "07",
+        "num": "08",
         "title": "Congés flexibles",
         "description": "Afin que chacun dans notre entreprise puisse gérer son équilibre vie professionnelle/vie personnelle sans stress. Toute indisponibilité doit être communiquée dans OOO/Break afin que notre équipe puisse en atténuer le risque. Tous les congés médicaux et d'examens sont payés, sauf s'ils surviennent dans les 30 premiers jours suivant l'embauche. Chacun bénéficie également d'un congé payé pour célébrer son propre anniversaire, ainsi que celui de son conjoint, de ses enfants et de ses parents. Les congés pris pour d'autres raisons sont payés dans une limite raisonnable. Tout abus de cette flexibilité sera pris au sérieux et pourra entraîner une séparation, sous réserve d'examen par un comité de 5 membres tiré au sort pour chaque cas."
       },
       {
-        "num": "08",
+        "num": "09",
         "title": "Auto-gestion de la paie",
         "description": "Chacun doit faciliter le traitement de sa paie en remplissant le formulaire de calcul de paie et en déclarant ses congés avec la plus grande intégrité, afin que le paiement puisse être traité avant 18 h le dernier jour ouvré du mois. Tout manquement à l'intégrité peut être motif de séparation. Chacun est encouragé à déclarer ses congés afin que la rémunération soit équitable pour tous, sans abus de la politique de congés ouverte."
       },
       {
-        "num": "09",
+        "num": "10",
         "title": "Disponibilité de 14 h à 22 h"
       },
       {
-        "num": "10",
+        "num": "11",
         "title": "PPP — Plan, Progrès, Problèmes",
         "pre": "Afin que le travail puisse être planifié, le progrès suivi, et que tout problème puisse être signalé pour faciliter sa résolution à temps. Les PPP aident aussi à retrouver ces données lors de la soumission et de la révision de l'auto-évaluation.",
         "code": "Date\nPlan\nProgrès\nProblèmes",
@@ -177,29 +182,24 @@
         ]
       },
       {
-        "num": "11",
+        "num": "12",
         "title": "Sens des responsabilités",
         "description": "Qyupe encourage le sens des responsabilités dans tout ce que nous faisons. Bien souvent, tout manquement à assumer cette responsabilité a des conséquences."
       },
       {
-        "num": "12",
+        "num": "13",
         "title": "Garde-fous contre les abus",
         "description": "L'entreprise se réserve le droit de révoquer ou de suspendre une ou plusieurs des politiques ci-dessus pour un employé, contractant ou consultant donné en cas d'abus de la flexibilité accordée."
       },
       {
-        "num": "13",
+        "num": "14",
         "title": "Salaires ouverts",
         "description": "Le salaire de personne n'est confidentiel — chaque rémunération dans l'entreprise est visible par tous. L'équité naît de la transparence, pas du secret : quand chacun peut voir ce que gagne chacun, les inégalités n'ont nulle part où se cacher. Nous sommes convaincus que la transparence motive bien plus que le contrôle déguisé en « confidentialité »."
       },
       {
-        "num": "14",
+        "num": "15",
         "title": "Pas de débauchage",
         "description": "Nous n'approchons ni n'embauchons des employés d'autres entreprises pour les en détourner — surtout pas ceux de nos concurrents — car nous ne déstabiliserons pas une autre équipe pour construire la nôtre. Nous privilégions les candidats dont la carrière a déjà été bouleversée par des licenciements ailleurs : notre approche « apprendre d'abord » signifie que presque tout écart de compétence ou d'expérience peut être comblé. La seule chose qu'elle ne peut pas corriger, c'est un grave manquement à l'intégrité."
-      },
-      {
-        "num": "15",
-        "title": "Intégration en 10 minutes",
-        "description": "Dès qu'un candidat décide de rejoindre Qyupe, l'offre part pour signature en ligne, accompagnée du téléversement de sa carte Aadhar et de son PAN. Dès que la lettre d'offre est signée, il reçoit ses identifiants de messagerie. En se connectant à cette messagerie, il débloque l'accès au groupe WhatsApp et à Zoom pour collaborer avec les entreprises du groupe — et, si le poste l'exige, l'accès à GitHub et Cloudflare suit également. Du « oui » à une intégration complète : environ dix minutes."
       }
     ]
   }

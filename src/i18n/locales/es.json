@@ -126,47 +126,52 @@
       },
       {
         "num": "02",
+        "title": "Incorporación en 10 minutos",
+        "description": "En cuanto un candidato decide unirse a Qyupe, le enviamos la oferta para firma electrónica junto con la carga de su Aadhar y PAN. En el momento en que se firma la carta de oferta, recibe las credenciales de su cuenta de correo. Al iniciar sesión en ese correo, se desbloquea el acceso al grupo de WhatsApp y a Zoom para colaborar entre las empresas del grupo -y, si el puesto lo requiere, también el acceso a GitHub y Cloudflare. Del \"sí\" a estar completamente conectado: unos diez minutos."
+      },
+      {
+        "num": "03",
         "title": "Sin negociación en la selección de nuevas contrataciones",
         "description": "Mantiene una compensación justa para todos dentro de la organización e igualdad de oportunidades para todos."
       },
       {
-        "num": "03",
+        "num": "04",
         "title": "Sin retención tras la renuncia",
         "description": "Para que todos se sientan motivados a expresar sus inquietudes, ya sea sobre la compensación o el trabajo, tan pronto como surjan."
       },
       {
-        "num": "04",
+        "num": "05",
         "title": "Autoevaluación",
         "preHtml": "Todos son compensados según el desempeño entregado. Se anima a todos a revisar continuamente su propio progreso y enviar su autoevaluación a <a href=\"mailto:self-appraisals@eazystar.us\">self-appraisals@eazystar.us</a> con los detalles de las mejoras logradas desde la última evaluación.",
         "code": "Fecha de la última evaluación-\nCompensación actual:\nNuevos aprendizajes desde la última evaluación:\nOtros logros clave:",
         "post": "En caso de que la última evaluación esté pendiente de implementación por motivos financieros, la siguiente autoevaluación puede enviarse igualmente. En cuanto la empresa tenga presupuesto, entrará en vigor la última autoevaluación aprobada."
       },
       {
-        "num": "05",
+        "num": "06",
         "title": "Prohibido fumar",
         "description": "Para que todos se sientan seguros en el lugar de trabajo."
       },
       {
-        "num": "06",
+        "num": "07",
         "title": "Sin periodo de preaviso",
         "description": "Para que a todos les encante trabajar con nosotros y puedan continuar su camino cuando decidan cambiar de opinión."
       },
       {
-        "num": "07",
+        "num": "08",
         "title": "Permisos flexibles",
         "description": "Para que todos en nuestra empresa puedan gestionar su equilibrio entre vida laboral y personal sin estrés. Cualquier ausencia debe comunicarse en OOO/Break para que nuestro equipo pueda mitigar el riesgo que genere. Todas las licencias médicas y de exámenes son pagadas, salvo que ocurran dentro de los primeros 30 días de ingreso. Todos también reciben permiso pagado para celebrar su propio cumpleaños, así como los cumpleaños de su cónyuge, sus hijos y sus padres. Las licencias tomadas por otros motivos son pagadas dentro de un límite razonable. Cualquier abuso de esta flexibilidad será tomado en serio y puede ser motivo de separación, sujeto a revisión por un comité de 5 miembros elegido al azar en cada caso."
       },
       {
-        "num": "08",
+        "num": "09",
         "title": "Nómina autogestionada",
         "description": "Todos deben gestionar su propia nómina completando el formulario de cálculo de nómina, marcando las licencias con la máxima integridad, para que el pago pueda procesarse a las 6 p. m. del último día laboral del mes. Cualquier falta de integridad puede ser motivo de separación. Se anima a todos a marcar sus licencias para que la compensación sea justa para todos, sin abusar de la política de licencias abierta."
       },
       {
-        "num": "09",
+        "num": "10",
         "title": "Disponibilidad de 2 a 10 p. m."
       },
       {
-        "num": "10",
+        "num": "11",
         "title": "PPP — Plan, Progreso, Problemas",
         "pre": "Para que el trabajo pueda planificarse, el progreso pueda seguirse y cualquier problema pueda destacarse para facilitar su resolución a tiempo. Los PPP también ayudan a tener referencia de datos durante la presentación y revisión de la autoevaluación.",
         "code": "Fecha\nPlan\nProgreso\nProblemas",
@@ -177,29 +182,24 @@
         ]
       },
       {
-        "num": "11",
+        "num": "12",
         "title": "Sentido de pertenencia",
         "description": "Qyupe promueve el sentido de pertenencia en todo lo que hacemos. Muchas veces, cualquier falta al asumir esa responsabilidad tiene consecuencias."
       },
       {
-        "num": "12",
+        "num": "13",
         "title": "Salvaguardas contra el abuso",
         "description": "La empresa se reserva el derecho de revocar o suspender una o más de las políticas anteriores para un empleado, contratista o consultor específico en caso de abuso de la flexibilidad otorgada."
       },
       {
-        "num": "13",
+        "num": "14",
         "title": "Salario abierto",
         "description": "El salario de nadie es confidencial: todos los sueldos de la empresa son visibles para todos. La equidad nace de la transparencia, no del secretismo: cuando todos pueden ver lo que gana cada quien, las inequidades no tienen dónde esconderse. Confiamos en que la apertura motiva mucho más que el control disfrazado de \"confidencialidad\"."
       },
       {
-        "num": "14",
+        "num": "15",
         "title": "Sin caza de talento",
         "description": "No nos acercamos a empleados de otras empresas ni los contratamos para alejarlos de ellas -especialmente no de la competencia-, porque no vamos a desestabilizar otro equipo para construir el nuestro. Preferimos candidatos cuya carrera ya se haya visto afectada por despidos en otro lugar: nuestro enfoque de \"aprender primero\" significa que casi cualquier brecha de habilidad o experiencia puede cerrarse. Lo único que no puede resolver es un problema grave de integridad."
-      },
-      {
-        "num": "15",
-        "title": "Incorporación en 10 minutos",
-        "description": "En cuanto un candidato decide unirse a Qyupe, le enviamos la oferta para firma electrónica junto con la carga de su Aadhar y PAN. En el momento en que se firma la carta de oferta, recibe las credenciales de su cuenta de correo. Al iniciar sesión en ese correo, se desbloquea el acceso al grupo de WhatsApp y a Zoom para colaborar entre las empresas del grupo -y, si el puesto lo requiere, también el acceso a GitHub y Cloudflare. Del \"sí\" a estar completamente conectado: unos diez minutos."
       }
     ]
   }
