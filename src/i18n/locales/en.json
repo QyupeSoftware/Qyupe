@@ -202,5 +202,40 @@
         "description": "We do not approach or hire employees away from other companies — especially not from competitors — because we won't disrupt another team to build our own. We prefer candidates whose careers have already been disrupted by layoffs elsewhere: our learning-first approach means almost any skill or experience gap can be closed. The only thing it can't fix is a serious integrity issue."
       }
     ]
+  },
+  "faq": {
+    "eyebrow": "For future teammates",
+    "title": "Questions candidates actually ask",
+    "description": "Our workplace policies are public — here's what they mean for you, in plain terms.",
+    "items": [
+      {
+        "question": "How fast can I actually start?",
+        "answer": "Once you accept our offer, onboarding takes about ten minutes — sign online, upload your Aadhar and PAN, and you're issued email credentials on the spot. From there you get access to WhatsApp, Zoom, and — if your role needs it — GitHub and Cloudflare too."
+      },
+      {
+        "question": "Will I know what my colleagues earn?",
+        "answer": "Yes. Every salary at Qyupe is visible to everyone — nothing is hidden behind 'confidentiality.' We've found transparency motivates people far more than secrecy ever could."
+      },
+      {
+        "question": "Is my starting salary negotiable?",
+        "answer": "No — by design. We don't negotiate new-hire offers, so everyone doing the same work starts on the same fair footing."
+      },
+      {
+        "question": "What if I need time off for personal reasons?",
+        "answer": "We run on flexible, paid leave — including a paid day off for your own birthday, and for your spouse's, kids', and parents' birthdays. Medical and exam leave is paid too."
+      },
+      {
+        "question": "What happens if I want to move on?",
+        "answer": "There's no notice period and no retention drama. If you've decided to go, we'd rather you leave on good terms than be talked into staying."
+      },
+      {
+        "question": "Do I need prior experience to apply?",
+        "answer": "We hire learning-first — almost any skill gap can be closed by someone willing to learn before doing. We especially welcome candidates whose careers were disrupted by layoffs elsewhere. The only thing we can't train around is a serious integrity issue."
+      },
+      {
+        "question": "How does my pay grow over time?",
+        "answer": "Through self-appraisal — you review your own progress and email in what you've learned since your last review. Approved raises take effect as soon as budget allows."
+      }
+    ]
   }
 }

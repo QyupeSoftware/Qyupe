@@ -202,5 +202,40 @@
         "description": "Nous n'approchons ni n'embauchons des employés d'autres entreprises pour les en détourner — surtout pas ceux de nos concurrents — car nous ne déstabiliserons pas une autre équipe pour construire la nôtre. Nous privilégions les candidats dont la carrière a déjà été bouleversée par des licenciements ailleurs : notre approche « apprendre d'abord » signifie que presque tout écart de compétence ou d'expérience peut être comblé. La seule chose qu'elle ne peut pas corriger, c'est un grave manquement à l'intégrité."
       }
     ]
+  },
+  "faq": {
+    "eyebrow": "Pour nos futurs coéquipiers",
+    "title": "Les questions que se posent vraiment les candidats",
+    "description": "Nos politiques d'entreprise sont publiques — voici ce qu'elles signifient pour vous, en termes simples.",
+    "items": [
+      {
+        "question": "À quelle vitesse puis-je vraiment commencer ?",
+        "answer": "Dès que vous acceptez notre offre, l'intégration prend environ dix minutes : signature en ligne, envoi de votre Aadhar et de votre PAN, et vous recevez vos identifiants de messagerie sur-le-champ. Vous obtenez ensuite l'accès à WhatsApp, Zoom, et, si votre poste l'exige, à GitHub et Cloudflare également."
+      },
+      {
+        "question": "Saurai-je combien gagnent mes collègues ?",
+        "answer": "Oui. Chaque salaire chez Qyupe est visible par tous — rien n'est caché derrière la « confidentialité ». Nous avons constaté que la transparence motive bien plus que le secret."
+      },
+      {
+        "question": "Mon salaire de départ est-il négociable ?",
+        "answer": "Non — c'est voulu. Nous ne négocions pas les offres d'embauche, afin que chacun démarre sur un pied d'égalité pour un même travail."
+      },
+      {
+        "question": "Que se passe-t-il si j'ai besoin de congé pour raisons personnelles ?",
+        "answer": "Nous fonctionnons avec des congés payés flexibles — y compris un jour payé pour votre propre anniversaire, ainsi que ceux de votre conjoint, de vos enfants et de vos parents. Les congés médicaux et d'examens sont également payés."
+      },
+      {
+        "question": "Que se passe-t-il si je décide de partir ?",
+        "answer": "Il n'y a ni préavis ni mise en scène pour vous retenir. Si vous avez décidé de partir, nous préférons que vous partiez en bons termes plutôt que d'être convaincu de rester."
+      },
+      {
+        "question": "Faut-il une expérience préalable pour postuler ?",
+        "answer": "Nous recrutons selon l'approche « apprendre d'abord » — presque tout écart de compétence peut être comblé par quelqu'un prêt à apprendre avant d'agir. Nous accueillons tout particulièrement les candidats dont la carrière a été bouleversée par des licenciements ailleurs. La seule chose que nous ne pouvons pas corriger, c'est un grave manquement à l'intégrité."
+      },
+      {
+        "question": "Comment mon salaire évolue-t-il dans le temps ?",
+        "answer": "Par l'auto-évaluation : vous passez en revue votre propre progression et envoyez par e-mail ce que vous avez appris depuis votre dernière évaluation. Les augmentations approuvées entrent en vigueur dès que le budget le permet."
+      }
+    ]
   }
 }

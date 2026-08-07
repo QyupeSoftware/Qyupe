@@ -202,5 +202,40 @@
         "description": "Não abordamos nem contratamos funcionários de outras empresas para tirá-los de lá — especialmente de concorrentes — porque não vamos desestabilizar outra equipe para construir a nossa. Preferimos candidatos cuja carreira já tenha sido afetada por demissões em outro lugar: nossa abordagem de \"aprender primeiro\" significa que quase qualquer lacuna de habilidade ou experiência pode ser superada. A única coisa que ela não resolve é um problema sério de integridade."
       }
     ]
+  },
+  "faq": {
+    "eyebrow": "Para futuros colegas de equipe",
+    "title": "As perguntas que os candidatos realmente fazem",
+    "description": "Nossas políticas de trabalho são públicas — aqui está o que elas significam para você, em termos simples.",
+    "items": [
+      {
+        "question": "Com que rapidez eu realmente posso começar?",
+        "answer": "Assim que você aceita nossa proposta, o onboarding leva cerca de dez minutos — assine on-line, envie seu Aadhar e PAN, e você recebe as credenciais de e-mail na hora. A partir daí, você tem acesso ao WhatsApp, ao Zoom e, se sua função exigir, também ao GitHub e ao Cloudflare."
+      },
+      {
+        "question": "Vou saber quanto meus colegas ganham?",
+        "answer": "Sim. Todo salário na Qyupe é visível para todos — nada é escondido atrás da \"confidencialidade\". Descobrimos que a transparência motiva muito mais do que o sigilo."
+      },
+      {
+        "question": "Meu salário inicial é negociável?",
+        "answer": "Não — de propósito. Não negociamos propostas para novas contratações, para que todos que fazem o mesmo trabalho comecem em condições justas e iguais."
+      },
+      {
+        "question": "E se eu precisar de folga por motivos pessoais?",
+        "answer": "Trabalhamos com licenças flexíveis e remuneradas — incluindo um dia de folga remunerado no seu próprio aniversário, e nos aniversários do cônjuge, dos filhos e dos pais. Licenças médicas e de provas também são remuneradas."
+      },
+      {
+        "question": "O que acontece se eu decidir seguir em frente?",
+        "answer": "Não há aviso prévio nem drama de retenção. Se você já decidiu ir, preferimos que você saia em bons termos a ser convencido a ficar."
+      },
+      {
+        "question": "Preciso de experiência prévia para me candidatar?",
+        "answer": "Contratamos com a abordagem \"aprender primeiro\" — quase qualquer lacuna de habilidade pode ser superada por alguém disposto a aprender antes de agir. Recebemos com atenção especial candidatos cuja carreira foi afetada por demissões em outro lugar. A única coisa que não conseguimos treinar é um problema sério de integridade."
+      },
+      {
+        "question": "Como meu salário cresce ao longo do tempo?",
+        "answer": "Por meio da autoavaliação — você revisa seu próprio progresso e envia por e-mail o que aprendeu desde a última revisão. Os aumentos aprovados entram em vigor assim que há orçamento."
+      }
+    ]
   }
 }

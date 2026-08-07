@@ -21,6 +21,7 @@ const title = computed(() => `${siteName} | ${t('meta.home.tagline')}`)
 const description = computed(() => t('meta.home.description'))
 const url = computed(() => siteUrl + homePath(locale.value))
 const ogImage = siteUrl + logoQyupe
+const faqItems = computed(() => tm('faq.items'))
 
 useHead(() => ({
   title: title.value,
@@ -61,6 +62,21 @@ useHead(() => ({
           name: 'EazyStar Systems Inc.',
           url: 'https://eazystar.us',
         },
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqItems.value.map((item) => ({
+          '@type': 'Question',
+          name: item.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.answer,
+          },
+        })),
       }),
     },
   ],
@@ -120,6 +136,23 @@ const policies = computed(() => policiesPath(locale.value))
             <div class="stat-label">{{ s.label }}</div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="section-head">
+        <div class="eyebrow">{{ t('faq.eyebrow') }}</div>
+        <h2>{{ t('faq.title') }}</h2>
+        <p>{{ t('faq.description') }}</p>
+      </div>
+      <div class="faq-list">
+        <details v-for="(item, i) in faqItems" :key="i" class="faq-item">
+          <summary>
+            <span>{{ item.question }}</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </summary>
+          <p>{{ item.answer }}</p>
+        </details>
       </div>
     </section>
 
@@ -269,6 +302,54 @@ const policies = computed(() => policiesPath(locale.value))
 .stat-wide { grid-column: 1 / 3; }
 .stat-value { font-size: 26px; font-weight: 800; color: var(--color-dark-accent); }
 .stat-label { font-size: 13px; color: var(--color-dark-text-muteder); margin-top: 4px; }
+
+/* FAQ */
+.faq { max-width: 1200px; margin: 0 auto; padding: 80px 32px; }
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.faq-item {
+  background: white;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 14px;
+  padding: 22px 26px;
+}
+.faq-item[open] { border-color: var(--color-accent); }
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-icon {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--color-accent-soft-bg);
+  color: var(--color-accent-soft-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  transition: transform 0.15s ease;
+}
+.faq-item[open] .faq-icon { transform: rotate(45deg); }
+.faq-item p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  margin: 14px 0 0;
+  max-width: 760px;
+}
 
 /* Clients */
 .clients { max-width: 1200px; margin: 0 auto; padding: 80px 32px; }

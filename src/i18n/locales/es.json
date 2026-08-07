@@ -202,5 +202,40 @@
         "description": "No nos acercamos a empleados de otras empresas ni los contratamos para alejarlos de ellas -especialmente no de la competencia-, porque no vamos a desestabilizar otro equipo para construir el nuestro. Preferimos candidatos cuya carrera ya se haya visto afectada por despidos en otro lugar: nuestro enfoque de \"aprender primero\" significa que casi cualquier brecha de habilidad o experiencia puede cerrarse. Lo único que no puede resolver es un problema grave de integridad."
       }
     ]
+  },
+  "faq": {
+    "eyebrow": "Para futuros compañeros de equipo",
+    "title": "Preguntas que realmente hacen los candidatos",
+    "description": "Nuestras políticas laborales son públicas: esto es lo que significan para ti, en términos claros.",
+    "items": [
+      {
+        "question": "¿Qué tan rápido puedo empezar en realidad?",
+        "answer": "En cuanto aceptas nuestra oferta, la incorporación toma unos diez minutos: firmas en línea, subes tu Aadhar y tu PAN, y recibes tus credenciales de correo al instante. Desde ahí obtienes acceso a WhatsApp, Zoom y, si tu puesto lo requiere, también a GitHub y Cloudflare."
+      },
+      {
+        "question": "¿Voy a saber cuánto gana mi compañeros?",
+        "answer": "Sí. Todos los salarios en Qyupe son visibles para todos: nada se esconde detrás de la \"confidencialidad\". Hemos comprobado que la transparencia motiva mucho más que el secretismo."
+      },
+      {
+        "question": "¿Mi salario inicial es negociable?",
+        "answer": "No, y es intencional. No negociamos las ofertas de nuevas contrataciones, así que todos los que hacen el mismo trabajo empiezan en igualdad de condiciones."
+      },
+      {
+        "question": "¿Qué pasa si necesito tiempo libre por motivos personales?",
+        "answer": "Funcionamos con licencias flexibles y pagadas, incluido un día pago por tu propio cumpleaños y por los cumpleaños de tu cónyuge, hijos y padres. Las licencias médicas y de exámenes también son pagadas."
+      },
+      {
+        "question": "¿Qué pasa si decido irme?",
+        "answer": "No hay período de preaviso ni dramas de retención. Si ya decidiste irte, preferimos que te vayas en buenos términos a convencerte de quedarte."
+      },
+      {
+        "question": "¿Necesito experiencia previa para postularme?",
+        "answer": "Contratamos bajo el enfoque de \"aprender primero\": casi cualquier brecha de habilidades puede cerrarse con alguien dispuesto a aprender antes de hacer. Damos especial bienvenida a candidatos cuya carrera se vio afectada por despidos en otro lugar. Lo único que no podemos entrenar es un problema grave de integridad."
+      },
+      {
+        "question": "¿Cómo crece mi salario con el tiempo?",
+        "answer": "A través de la autoevaluación: revisas tu propio progreso y envías por correo lo que aprendiste desde tu última revisión. Los aumentos aprobados entran en vigencia en cuanto hay presupuesto."
+      }
+    ]
   }
 }
